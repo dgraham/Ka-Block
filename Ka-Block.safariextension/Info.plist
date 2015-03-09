@@ -9,7 +9,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Ka-Block!</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.negativecode.ka-block</string>
+	<string>com.negativecode.safari.ka-block</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -47,6 +47,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://raw.githubusercontent.com/dgraham/Ka-Block/master/Ka-Block.plist</string>
 	<key>Website</key>
 	<string>http://www.negativecode.com</string>
 </dict>
