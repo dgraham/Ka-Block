@@ -3,6 +3,8 @@
 A Safari browser extension that blocks an artisanal selection of advertising
 domains.
 
+![Ka-Block](/Ka-Block.safariextension/Icon.png)
+
 ## State of the art
 
 The most popular ad blocking extensions take a no holds barred, nuke them from
