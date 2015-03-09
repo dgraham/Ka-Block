@@ -63,8 +63,8 @@ it at all.
 
 If there's a pesky ad-serving domain that's getting through the filter, open
 a pull request with the domain and a site or two on which its ads appear. We'll
-add it to the blocked domains list and release a new version of the extension
-to include it.
+add it to the [blocked domains list](/blob/master/Ka-Block.safariextension/domains.js)
+and release a new version of the extension to include it.
 
 ## License
 
