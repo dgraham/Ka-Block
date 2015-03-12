@@ -15,6 +15,7 @@ var domains = [
   'bizographics.com',
   'blogads.com',
   'bluekai.com',
+  'bounceexchange.com',
   'carbonads.net',
   'casalemedia.com',
   'chartbeat.com',
@@ -27,6 +28,9 @@ var domains = [
   'dynamicyield.com',
   'effectivemeasure.net',
   'eproof.com',
+  'everestjs.net',
+  'everesttech.net',
+  'go-mpulse.net',
   'google-analytics.com',
   'googleadservices.com',
   'googlesyndication.com',
@@ -48,6 +52,7 @@ var domains = [
   'pictela.net',
   'postrelease.com',
   'pzkysq.pink',
+  'qualtrics.com',
   'quantcast.com',
   'quantserve.com',
   'revsci.net',
@@ -60,6 +65,7 @@ var domains = [
   'trove.com',
   'turn.com',
   'tynt.com',
+  'viglink.com',
   'visualrevenue.com',
   'zergnet.com'
 ]
