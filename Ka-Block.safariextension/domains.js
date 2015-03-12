@@ -60,5 +60,6 @@ var domains = [
   'trove.com',
   'turn.com',
   'tynt.com',
-  'visualrevenue.com'
+  'visualrevenue.com',
+  'zergnet.com'
 ]
