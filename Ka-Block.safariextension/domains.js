@@ -67,5 +67,6 @@ var domains = [
   'tynt.com',
   'viglink.com',
   'visualrevenue.com',
-  'zergnet.com'
+  'zergnet.com',
+  'zqtk.net'
 ]
