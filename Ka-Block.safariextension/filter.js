@@ -1,7 +1,13 @@
+// Detect third-level domains.
+function third(domain) {
+  return domain.split('.').length > 2
+}
+
 // Create filter predicate function for blocked domains.
 function filter(domains) {
   var all = domains.map(function(domain) {
-    return '\\.' + domain.replace(/[.]/, '\\.')
+    var escaped = domain.replace(/[.]/g, '\\.')
+    return third(domain) ? escaped : '\\.' + escaped
   }).join('|')
 
   var re = new RegExp('(' + all + ')$', 'i')

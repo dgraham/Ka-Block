@@ -8,6 +8,7 @@ var domains = [
   'adzerk.net',
   'afy11.net',
   'amazon-adsystem.com',
+  'ads.yahoo.com',
   'adserver.yahoo.com',
   'analytics.yahoo.com',
   'bc.yahoo.com',
