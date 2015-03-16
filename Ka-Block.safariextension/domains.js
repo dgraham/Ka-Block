@@ -45,6 +45,7 @@ const domains = [
   'intermarkets.net',
   'korrelate.net',
   'krxd.net',
+  'linksynergy.com',
   'mediaplex.com',
   'moatads.com',
   'mookie1.com',
