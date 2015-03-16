@@ -1,4 +1,4 @@
-var domains = [
+const domains = [
   '2mdn.net',
   'adadviser.net',
   'adnxs.com',
