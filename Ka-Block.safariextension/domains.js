@@ -63,6 +63,7 @@ var domains = [
   'scorecardresearch.com',
   'serving-sys.com',
   'simplereach.com',
+  'sitescout.com',
   'skimresources.com',
   'streamads.yahoo.com',
   'taboola.com',
