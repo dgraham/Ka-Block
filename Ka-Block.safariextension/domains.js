@@ -56,6 +56,7 @@ const domains = [
   'opbandit.com',
   'outbrain.com',
   'pictela.net',
+  'pixel.wp.com',
   'postrelease.com',
   'pzkysq.pink',
   'qualtrics.com',
