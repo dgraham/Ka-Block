@@ -32,6 +32,7 @@ const domains = [
   'chitika.net',
   'clicktale.net',
   'content.ad',
+  'convertro.com',
   'demdex.net',
   'dotomi.com',
   'doubleclick.net',
