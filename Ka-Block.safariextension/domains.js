@@ -4,6 +4,7 @@ const domains = [
   'adadviser.net',
   'adnxs.com',
   'adsonar.com',
+  'adspeed.net',
   'adtechus.com',
   'advertising.com',
   'adzerk.net',
