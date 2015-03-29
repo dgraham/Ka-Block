@@ -59,6 +59,13 @@ extension to determine if it's allowed to download it. If the resource is
 served by a blocked domain, it's rejected and the browser doesn't download
 it at all.
 
+## Installation
+
+Ka-Block! can be installed from the [Safari Extensions Gallery][gallery].
+
+Alternatively, you can download the [latest Ka-Block.safariextz][latest]
+file and double-click to install.
+
 ## Updating the domain list
 
 If there's a pesky ad-serving domain that's getting through the filter, open
@@ -72,3 +79,6 @@ Ka-Block! is released under the terms of the MIT license. Check the LICENSE
 file for details.
 
 <3
+
+[latest]: https://github.com/dgraham/Ka-Block/releases/latest
+[gallery]: https://extensions.apple.com/details/?id=com.negativecode.safari.ka-block-UYW4V22L7E
