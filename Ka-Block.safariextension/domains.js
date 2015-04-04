@@ -103,6 +103,7 @@ const domains = [
   'rlcdn.com',
   'rubiconproject.com',
   'scorecardresearch.com',
+  'servebom.com',
   'serving-sys.com',
   'simplereach.com',
   'sitescout.com',
