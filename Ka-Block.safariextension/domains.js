@@ -45,6 +45,7 @@ const domains = [
   'content.ad',
   'convertro.com',
   'crsspxl.com',
+  'crwdcntrl.net',
   'demdex.net',
   'dotomi.com',
   'doubleclick.net',
