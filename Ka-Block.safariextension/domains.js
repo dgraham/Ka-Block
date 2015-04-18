@@ -15,6 +15,8 @@ const domains = [
   'amazon-adsystem.com',
   'ads.yahoo.com',
   'adserver.yahoo.com',
+  'adsrvr.org',
+  'adtech.de',
   'analytics.yahoo.com',
   'backbeatmedia.com',
   'bc.yahoo.com',
