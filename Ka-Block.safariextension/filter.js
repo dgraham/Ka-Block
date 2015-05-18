@@ -1,16 +1,12 @@
-// Detect third-level domains.
-function third(domain) {
-  return domain.split('.').length > 2
+// Match literal dots in domain names.
+function escape(domain) {
+  return domain.replace(/[.]/g, '\\.')
 }
 
 // Create filter predicate function for blocked domains.
 function filter(domains) {
-  const all = domains.map(function(domain) {
-    const escaped = domain.replace(/[.]/g, '\\.')
-    return third(domain) ? escaped : '\\.' + escaped
-  }).join('|')
-
-  const re = new RegExp('(' + all + ')$', 'i')
+  const all = domains.map(escape).join('|')
+  const re = new RegExp('(?:^|\\.)(?:' + all + ')$', 'i')
   return re.test.bind(re)
 }
 
