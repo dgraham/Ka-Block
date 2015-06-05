@@ -63,6 +63,7 @@ const domains = [
   'dwin1.com',
   'dynamicyield.com',
   'effectivemeasure.net',
+  'eloqua.com',
   'en25.com',
   'eproof.com',
   'everestjs.net',
