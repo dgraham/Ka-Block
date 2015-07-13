@@ -23,6 +23,8 @@
 	</dict>
 	<key>Content</key>
 	<dict>
+		<key>Content Blocker</key>
+		<string>blockerList.json</string>
 		<key>Scripts</key>
 		<dict>
 			<key>Start</key>

@@ -34,4 +34,7 @@ function init() {
   req.send()
 }
 
-init()
+// Content Blocker polyfill for Safari 8 and under
+if (!('onwebkitmouseforcedown' in window)) {
+  init()
+}
