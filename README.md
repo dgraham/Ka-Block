@@ -1,4 +1,4 @@
-# KA-BLOCK!
+# Ka-Block!
 
 A Safari browser extension that blocks an artisanal selection of advertising
 domains.
