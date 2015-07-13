@@ -6,9 +6,9 @@ class ViewController: UIViewController {
     var extensionEnabled = false {
         didSet {
             if extensionEnabled {
-                self.label.text = "Enabled"
+                self.label.text = "Ad blocking is enabled.\nYou’re all set!"
             } else {
-                self.label.text = "Disabled"
+                self.label.text = "Enable the Safari extension\nto prevent ads from appearing\non web pages."
             }
         }
     }
