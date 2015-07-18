@@ -473,6 +473,14 @@
   },
   {
     "trigger": {
+      "url-filter": "dl-rms.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "dmtry.com"
     },
     "action": {
@@ -602,6 +610,14 @@
   {
     "trigger": {
       "url-filter": "fetchback.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "firstimpression.io"
     },
     "action": {
       "type": "block"
@@ -1370,6 +1386,14 @@
   {
     "trigger": {
       "url-filter": "tacoda.net"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "tapstream.com"
     },
     "action": {
       "type": "block"
