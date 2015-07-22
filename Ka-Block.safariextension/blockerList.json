@@ -1393,6 +1393,14 @@
   },
   {
     "trigger": {
+      "url-filter": "tagsrvcs.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "tapstream.com"
     },
     "action": {
