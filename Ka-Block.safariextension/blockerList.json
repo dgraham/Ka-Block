@@ -17,6 +17,14 @@
   },
   {
     "trigger": {
+      "url-filter": "2o7.net"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "acxiom-online.com"
     },
     "action": {
@@ -137,6 +145,22 @@
   },
   {
     "trigger": {
+      "url-filter": "agkn.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "ak.sail-horizon.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "amazon-adsystem.com"
     },
     "action": {
@@ -250,6 +274,14 @@
   {
     "trigger": {
       "url-filter": "betrad.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "bidswitch.net"
     },
     "action": {
       "type": "block"
@@ -625,6 +657,14 @@
   },
   {
     "trigger": {
+      "url-filter": "flashtalking.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "flite.com"
     },
     "action": {
@@ -857,6 +897,14 @@
   },
   {
     "trigger": {
+      "url-filter": "liftdna.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "lijit.com"
     },
     "action": {
@@ -890,6 +938,14 @@
   {
     "trigger": {
       "url-filter": "madisonlogic.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "marketo.net"
     },
     "action": {
       "type": "block"
@@ -1097,6 +1153,14 @@
   },
   {
     "trigger": {
+      "url-filter": "pixel.parsely.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "pixel.wp.com"
     },
     "action": {
@@ -1210,6 +1274,14 @@
   {
     "trigger": {
       "url-filter": "res-x.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "retargeter.com"
     },
     "action": {
       "type": "block"
@@ -1338,6 +1410,14 @@
   {
     "trigger": {
       "url-filter": "spotxchange.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "static.parsely.com"
     },
     "action": {
       "type": "block"
