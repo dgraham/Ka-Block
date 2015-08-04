@@ -1,6 +1,6 @@
-// Match literal dots in domain names.
-function escape(domain) {
-  return domain.replace(/[.]/g, '\\.')
+// Wrap domain in grouping pattern.
+function group(pattern) {
+  return '(?:' + pattern + ')'
 }
 
 // Get trigger url for block list rule
@@ -10,8 +10,8 @@ function ruleURL(rule) {
 
 // Create filter predicate function for blocked domains.
 function filter(rules) {
-  const all = rules.map(ruleURL).map(escape).join('|')
-  const re = new RegExp('(?:^|\\.)(?:' + all + ')$', 'i')
+  const all = rules.map(ruleURL).map(group).join('|')
+  const re = new RegExp(all, 'i')
   return re.test.bind(re)
 }
 
@@ -20,8 +20,7 @@ function installCanLoad(rules) {
   const blocked = filter(rules)
   safari.application.addEventListener('message', function(event) {
     if (event.name === 'canLoad') {
-      const host = new URL(event.message).hostname
-      event.message = blocked(host) ? 'block' : 'allow'
+      event.message = blocked(event.message) ? 'block' : 'allow'
     }
   }, true)
 }
