@@ -847,6 +847,15 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?gravity\\.com[:/]",
+      "url-filter-is-case-sensitive": true
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gscounters\\.eu1\\.gigya\\.com[:/]",
       "url-filter-is-case-sensitive": true
     },
@@ -1803,6 +1812,16 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?visualrevenue\\.com[:/]",
       "url-filter-is-case-sensitive": true
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://www\\.facebook\\.com/tr/\\?",
+      "url-filter-is-case-sensitive": true,
+      "resource-type": ["image"]
     },
     "action": {
       "type": "block"
