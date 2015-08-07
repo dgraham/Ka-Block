@@ -201,6 +201,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.edgekey\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?amazon-adsystem\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -1321,6 +1331,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?naytev\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?neodatagroup\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -1444,6 +1464,17 @@
       "url-filter": "^https?:/+([^/:]+\\.)?pictela\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?pixel\\.keywee\\.co[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"],
+      "resource-type": ["image"]
     },
     "action": {
       "type": "block"
@@ -1602,6 +1633,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?res-x\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?researchnow\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
