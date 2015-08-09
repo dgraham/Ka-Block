@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         extensionEnabled = false
-        SFContentBlockerManager.reloadContentBlockerWithIdentifier("com.github.dgraham.Ka-Block.Ka-Block-Content-Blocker") { error in
+        SFContentBlockerManager.reloadContentBlockerWithIdentifier("com.kablock.Ka-Block-Content-Blocker") { error in
             dispatch_async(dispatch_get_main_queue()) {
                 self.extensionEnabled = true
             }
