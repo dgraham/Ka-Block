@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.1</string>
 	<key>CFBundleVersion</key>
-	<string>20</string>
+	<string>21</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -52,6 +52,6 @@
 	<key>Update Manifest URL</key>
 	<string>https://raw.githubusercontent.com/dgraham/Ka-Block/master/Ka-Block.plist</string>
 	<key>Website</key>
-	<string>http://www.negativecode.com</string>
+	<string>http://kablock.com</string>
 </dict>
 </plist>
