@@ -1361,6 +1361,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mdotlabs\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?media\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -2032,7 +2042,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?taboola\\.com[:/]",
+      "url-filter": "^https?:/+([^/:]+\\.)?taboola(syndication)?\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
@@ -2223,6 +2233,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?visualrevenue\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://widget\\.perfectmarket\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
