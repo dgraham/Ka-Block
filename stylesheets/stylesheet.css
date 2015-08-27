@@ -38,12 +38,12 @@ a:hover {
 }
 
 .nav-links {
+  list-style-type: none;
   text-align: right;
 }
 
 .nav-links li {
   display: inline-block;
-  list-type: none;
   margin-left: 1.5rem;
 }
 
