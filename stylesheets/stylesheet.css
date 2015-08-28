@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: -apple-system, "Avenir Next Condensed", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", Helvetica, "Segoe UI", sans-serif;
   line-height: 1.5;
   background-color: #fff;
   color: #606c71;
@@ -71,7 +71,7 @@ a:hover {
 
 .product-name {
   color: rgb(212, 212, 222);
-  font-family: "DIN Condensed", sans-serif;
+  font-family: "DIN Condensed", "Segoe UI", sans-serif;
   font-size: 4.5rem;
   line-height: 1.25;
   text-align: center;
