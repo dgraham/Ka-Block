@@ -332,6 +332,7 @@ a:hover {
 }
 
 .footer-block .nav-link {
+  color: inherit;
   line-height: 4;
 }
 
