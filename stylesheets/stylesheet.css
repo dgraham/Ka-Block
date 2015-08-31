@@ -392,6 +392,24 @@ a:hover {
     width: 100%;
   }
 
+  .graph {
+    margin-left: 1.75%;
+    margin-right: 1.75%;
+    margin-bottom: 3rem;
+    width: 30%;
+  }
+
+  .graph:nth-of-type(4) {
+    margin-right: 0;
+  }
+
+  .graph-requests-b,
+  .graph-requests-e,
+  .graph-size-b,
+  .graph-size-e {
+    display: none;
+  }
+
   .author-info {
     margin: 0;
     margin-bottom: 3rem;
