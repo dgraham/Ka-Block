@@ -159,6 +159,7 @@ a:hover {
 .graph-legend {
   color: rgb(160, 160, 174);
   font-size: 0.6875rem;
+  line-height: 1.3;
   text-align: center;
   text-transform: uppercase;
 }
