@@ -310,6 +310,7 @@ a:hover {
 .credits {
   font-size: 0.875rem;
   line-height: 4;
+  padding: 0 20px;
   position: absolute;
   bottom: 0;
   text-align: left;
