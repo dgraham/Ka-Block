@@ -127,9 +127,18 @@ a:hover {
 
 .graph {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 6%;
+  margin-right: 6%;
   margin-bottom: 3rem;
-  width: 120px;
+  width: 10%;
+}
+
+.graph:first-of-type {
+  margin-left: 0;
+}
+
+.graph:nth-of-type(5) {
+  margin-right: 0;
 }
 
 .graph-title {
@@ -185,11 +194,6 @@ a:hover {
 .graph-size .graph-label {
   color: #54c7fc;
   border-color: #54c7fc;
-}
-
-.graph-requests-a,
-.graph-size-a {
-  margin-left: 60px;
 }
 
 .graph-requests-a .before {
@@ -341,7 +345,10 @@ a:hover {
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-
+  .graph {
+    margin-left: 5.85%;
+    margin-right: 5.85%;
+  }
 }
 
 @media screen and (max-width: 42em) {
