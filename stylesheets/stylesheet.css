@@ -282,7 +282,15 @@ a:hover {
 
 .author-info {
   display: inline-block;
-  margin: 0 70px;
+  margin: 0 110px;
+}
+
+.author-info:first-of-type {
+  margin-left: 0;
+}
+
+.author-info:last-of-type {
+  margin-right: 0;
 }
 
 .avatar {
@@ -360,6 +368,10 @@ a:hover {
     margin-left: 5.85%;
     margin-right: 5.85%;
   }
+
+  .author-info {
+    margin: 0 90px;
+  }
 }
 
 @media screen and (max-width: 42em) {
@@ -382,15 +394,7 @@ a:hover {
 
   .author-info {
     margin: 0;
-  }
-
-  .author-info:first-of-type {
-    margin-right: 30px;
-  }
-
-  .avatar {
-    width: 110px;
-    height: 110px;
+    margin-bottom: 3rem;
   }
 
   .credits {
