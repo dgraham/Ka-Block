@@ -30,6 +30,7 @@ a:hover {
 .block-content {
   max-width: 960px;
   margin: 0 auto;
+  position: relative;
 }
 
 .nav-block {
@@ -298,8 +299,11 @@ a:hover {
 
 .footer-block {
   background-color: #252525;
-  padding: 12rem 0;
   text-align: center;
+}
+
+.footer-block .block-content {
+  padding: 12rem 0;
 }
 
 .credits {
@@ -307,6 +311,7 @@ a:hover {
   line-height: 4;
   position: absolute;
   bottom: 0;
+  text-align: left;
   width: 100%;
 }
 
