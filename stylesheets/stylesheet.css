@@ -325,6 +325,16 @@ a:hover {
   color: inherit;
 }
 
+.footer-block .nav-links {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.footer-block .nav-link {
+  line-height: 4;
+}
+
 .request-block,
 .bandwidth-block {
   margin-bottom: 6rem;
@@ -384,5 +394,9 @@ a:hover {
 
   .credits {
     text-align: center;
+  }
+
+  .footer-block .nav-links {
+    display: none;
   }
 }
