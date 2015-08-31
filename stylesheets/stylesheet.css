@@ -90,7 +90,7 @@ a:hover {
 }
 
 .header-block .lead {
-  color: inherit;
+  color: rgb(110, 110, 119);
   font-size: 1.5rem;
   margin-bottom: 0;
 }
