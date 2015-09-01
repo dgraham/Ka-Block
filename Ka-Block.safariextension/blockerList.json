@@ -761,7 +761,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?doubleclick\\.net[:/]",
+      "url-filter": "^https?:/+([^/:]+\\.)*doubleclick\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
