@@ -345,19 +345,22 @@ a:hover {
   line-height: 4;
 }
 
-.request-block,
-.bandwidth-block {
+.spaced {
   margin-bottom: 6rem;
 }
 
-.request-block .block-content,
-.bandwidth-block .block-content {
-  border-bottom: 1px solid #eee;
+.bordered .block-content {
   padding-bottom: 6rem;
 }
 
-.author-block .block-content {
-  padding-bottom: 6rem;
+.bordered .block-content::after {
+  content: '';
+  background: #eee;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 @media screen and (min-width: 64em) {
@@ -365,6 +368,12 @@ a:hover {
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
+  .bordered .block-content::after {
+    width: 45%;
+    left: 50%;
+    margin-left: -22.5%;
+  }
+
   .graph {
     margin-left: 5.85%;
     margin-right: 5.85%;
@@ -385,12 +394,30 @@ a:hover {
   }
 
   .block-title {
-    font-size: 1.125rem;
+    font-size: 1.3125rem;
     line-height: 1.3;
   }
 
   .hero {
     width: 100%;
+  }
+
+  .spaced {
+    margin-bottom: 4rem;
+  }
+
+  .bordered .block-content {
+    padding-bottom: 4rem;
+  }
+
+  .bordered .block-content::after {
+    width: 20%;
+    left: 50%;
+    margin-left: -10%;
+  }
+
+  .lead {
+    margin-bottom: 4rem;
   }
 
   .graph {
@@ -414,7 +441,10 @@ a:hover {
 
   .author-info {
     margin: 0;
-    margin-bottom: 3rem;
+  }
+
+  .author-info:first-of-type {
+    margin-bottom: 4rem;
   }
 
   .credits {
