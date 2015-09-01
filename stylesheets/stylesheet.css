@@ -398,6 +398,7 @@ a:hover {
     margin-right: 1.75%;
     margin-bottom: 3rem;
     width: 30%;
+    text-align: center;
   }
 
   .graph:nth-of-type(4) {
