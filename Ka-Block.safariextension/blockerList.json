@@ -761,7 +761,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?doubleclick\\.net[:/]",
+      "url-filter": "^https?:/+([^/:]+\\.)*doubleclick\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
@@ -1012,16 +1012,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?googleadservices\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?googleads\\.g\\.doubleclick\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
