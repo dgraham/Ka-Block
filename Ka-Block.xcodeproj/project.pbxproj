@@ -369,7 +369,7 @@
 				INFOPLIST_FILE = "Ka-Block/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.dgraham.Ka-Block";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kablock.Ka-Block";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
