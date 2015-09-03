@@ -6,13 +6,15 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>com.negativecode.safari.ka-block</string>
+       <string>com.kablock.Ka-Block</string>
        <key>Developer Identifier</key>
        <string>UYW4V22L7E</string>
        <key>CFBundleVersion</key>
-       <string>21</string>
+       <string>22</string>
        <key>CFBundleShortVersionString</key>
-       <string>2.1</string>
+       <string>2.2</string>
+       <key>Update From Gallery</key>
+       <true/>
        <key>URL</key>
        <string>https://raw.githubusercontent.com/dgraham/Ka-Block/master/Ka-Block.safariextz</string>
      </dict>

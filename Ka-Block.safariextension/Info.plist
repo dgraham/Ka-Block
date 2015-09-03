@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>David Graham</string>
+	<string>David Graham &amp; Josh Peek</string>
 	<key>Builder Version</key>
 	<string>11601.1.56</string>
 	<key>CFBundleDisplayName</key>
 	<string>Ka-Block!</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.negativecode.safari.ka-block</string>
+	<string>com.kablock.Ka-Block</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.1</string>
+	<string>2.2</string>
 	<key>CFBundleVersion</key>
-	<string>21</string>
+	<string>22</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -34,7 +34,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Block advertisements.</string>
+	<string>Block advertisements and trackers to enjoy a faster web.</string>
 	<key>DeveloperIdentifier</key>
 	<string>UYW4V22L7E</string>
 	<key>ExtensionInfoDictionaryVersion</key>
