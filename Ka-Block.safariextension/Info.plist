@@ -9,29 +9,17 @@
 	<key>CFBundleDisplayName</key>
 	<string>Ka-Block!</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.kablock.Ka-Block</string>
+	<string>com.kablock.osx</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.2</string>
+	<string>2.3</string>
 	<key>CFBundleVersion</key>
-	<string>22</string>
-	<key>Chrome</key>
-	<dict>
-		<key>Global Page</key>
-		<string>index.html</string>
-	</dict>
+	<string>23</string>
 	<key>Content</key>
 	<dict>
 		<key>Content Blocker</key>
 		<string>blockerList.json</string>
-		<key>Scripts</key>
-		<dict>
-			<key>Start</key>
-			<array>
-				<string>start.js</string>
-			</array>
-		</dict>
 	</dict>
 	<key>Description</key>
 	<string>Block advertisements and trackers to enjoy a faster web.</string>
@@ -39,16 +27,6 @@
 	<string>UYW4V22L7E</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
-	<key>Permissions</key>
-	<dict>
-		<key>Website Access</key>
-		<dict>
-			<key>Include Secure Pages</key>
-			<true/>
-			<key>Level</key>
-			<string>All</string>
-		</dict>
-	</dict>
 	<key>Update Manifest URL</key>
 	<string>https://raw.githubusercontent.com/dgraham/Ka-Block/master/Ka-Block.plist</string>
 	<key>Website</key>

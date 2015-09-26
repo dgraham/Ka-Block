@@ -6,13 +6,13 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>com.kablock.Ka-Block</string>
+       <string>com.kablock.osx</string>
        <key>Developer Identifier</key>
        <string>UYW4V22L7E</string>
        <key>CFBundleVersion</key>
-       <string>22</string>
+       <string>23</string>
        <key>CFBundleShortVersionString</key>
-       <string>2.2</string>
+       <string>2.3</string>
        <key>Update From Gallery</key>
        <true/>
        <key>URL</key>
