@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03EF8F0B1B33B86F000FAF60 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 03EF8F0A1B33B86F000FAF60 /* blockerList.json */; };
+		03EF8F0B1B33B86F000FAF60 /* filters.json in Resources */ = {isa = PBXBuildFile; fileRef = 03EF8F0A1B33B86F000FAF60 /* filters.json */; };
 		03FCD0101B2AA68A00076943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCD00F1B2AA68A00076943 /* AppDelegate.swift */; };
 		03FCD0121B2AA68A00076943 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCD0111B2AA68A00076943 /* ViewController.swift */; };
 		03FCD0151B2AA68A00076943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FCD0131B2AA68A00076943 /* Main.storyboard */; };
@@ -42,7 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03EF8F0A1B33B86F000FAF60 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = "Ka-Block.safariextension/blockerList.json"; sourceTree = SOURCE_ROOT; };
+		03EF8F0A1B33B86F000FAF60 /* filters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = filters.json; path = "Ka-Block.safariextension/filters.json"; sourceTree = SOURCE_ROOT; };
 		03FCD00C1B2AA68A00076943 /* Ka-Block!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ka-Block!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FCD00F1B2AA68A00076943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03FCD0111B2AA68A00076943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		03FCD0261B2AA77600076943 /* Ka-Block Content Blocker */ = {
 			isa = PBXGroup;
 			children = (
-				03EF8F0A1B33B86F000FAF60 /* blockerList.json */,
+				03EF8F0A1B33B86F000FAF60 /* filters.json */,
 				03FCD0291B2AA77600076943 /* ActionRequestHandler.swift */,
 				03FCD02B1B2AA77600076943 /* Info.plist */,
 			);
@@ -204,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03EF8F0B1B33B86F000FAF60 /* blockerList.json in Resources */,
+				03EF8F0B1B33B86F000FAF60 /* filters.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
