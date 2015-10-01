@@ -61,6 +61,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?4dsply\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?acxiom-online\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -82,6 +92,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adblade\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adg\\.bzgint\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
@@ -162,6 +182,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adsafeprotected\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adsnative\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
@@ -441,6 +471,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?bttrack\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?cxense\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -452,6 +492,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gemini\\.yahoo\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?genesismedia\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
@@ -902,6 +952,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?doubleverify\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?dpmsrv\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
@@ -1522,6 +1582,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?linksynergy\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?lirte\\.org[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
