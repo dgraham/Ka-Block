@@ -81,4 +81,5 @@ file for details.
 <3
 
 [latest]: https://github.com/dgraham/Ka-Block/releases/latest
-[gallery]: https://extensions.apple.com/details/?id=com.negativecode.safari.ka-block-UYW4V22L7E
+[gallery]: https://safari-extensions.apple.com/details/?id=com.kablock.osx-UYW4V22L7E
+
