@@ -821,6 +821,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?coremetrics\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?crazyegg\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -1351,6 +1361,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?heapanalytics\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?himediads\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -1731,6 +1751,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mkt51\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?moatads\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -1762,6 +1792,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mookie1\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mpstat\\.us[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
