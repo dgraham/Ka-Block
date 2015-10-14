@@ -111,6 +111,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adition\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adjuggler\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -811,6 +821,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?://content\\.livesportmedia\\.eu[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?convertro\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -1232,6 +1252,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?go-mpulse\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?google\\.com/adsense/search/(async-)?ads\\.js",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
@@ -2143,6 +2173,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?r7ls\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://rcm-.*\\.amazon\\.",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
