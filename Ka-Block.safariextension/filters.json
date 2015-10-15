@@ -2950,5 +2950,25 @@
     "action": {
       "type": "block"
     }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?oewabox\\.at[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "/MetaAdServer/",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party", "first-party"]
+    },
+    "action": {
+      "type": "block"
+    }
   }
 ]
