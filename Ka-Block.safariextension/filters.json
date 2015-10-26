@@ -71,6 +71,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?3lift\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?4dsply\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
