@@ -1013,7 +1013,8 @@
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?doubleclick\\.net[:/]",
       "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
+      "load-type": ["third-party"],
+      "unless-domain": ["www.youtube.com"]
     },
     "action": {
       "type": "block"
