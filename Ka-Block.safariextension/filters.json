@@ -1014,7 +1014,7 @@
       "url-filter": "^https?:/+([^/:]+\\.)?doubleclick\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"],
-      "unless-domain": ["www.youtube.com"]
+      "unless-domain": ["www.youtube.com", "m.youtube.com"]
     },
     "action": {
       "type": "block"
