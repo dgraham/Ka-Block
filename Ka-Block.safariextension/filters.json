@@ -1272,6 +1272,17 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?fwmrm\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"],
+      "resource-type": ["image"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?getclicky\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
