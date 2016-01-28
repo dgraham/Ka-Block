@@ -131,6 +131,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adcash\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adition\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
