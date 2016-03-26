@@ -113,6 +113,12 @@
       "idiom" : "ipad",
       "filename" : "76x76@2x.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "83.5x83.5",
+      "idiom" : "ipad",
+      "filename" : "83.5x83.5@2x.png",
+      "scale" : "2x"
     }
   ],
   "info" : {
