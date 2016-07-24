@@ -18,6 +18,8 @@
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
 	<string>2.7</string>
+	<key>NSHumanReadableDescription</key>
+	<string>Block advertisements and tracking scripts.</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>

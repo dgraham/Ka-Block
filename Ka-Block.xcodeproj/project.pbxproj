@@ -167,7 +167,6 @@
 					};
 					03FCD0241B2AA77600076943 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = UYW4V22L7E;
 					};
 				};
 			};
