@@ -185,6 +185,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adform\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adfox\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3423,6 +3435,30 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?sprinklecontent\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?sprinkletxt\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?static\\.parsely\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3520,6 +3556,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?tagsrvcs\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?tailsweep\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
