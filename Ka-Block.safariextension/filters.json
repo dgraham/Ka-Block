@@ -1371,6 +1371,18 @@
       "type": "block"
     }
   },
+ {
+ "trigger": {
+ "url-filter": "^https?:/+([^/:]+\\.)?demdex\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?developermedia\\.com[:/]",
@@ -3337,6 +3349,18 @@
       "type": "block"
     }
   },
+ {
+ "trigger": {
+ "url-filter": "^https?:/+([^/:]+\\.)?openx\\.net[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?serving-sys\\.com[:/]",
@@ -3541,6 +3565,18 @@
       "type": "block"
     }
   },
+ {
+ "trigger": {
+ "url-filter": "^https?:/+([^/:]+\\.)?taboola\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?tacoda\\.net[:/]",
@@ -4119,5 +4155,329 @@
     "action": {
       "type": "block"
     }
-  }
+  },
+  {
+    "trigger": {
+    "url-filter": "^http?:/+([^/:]+\\.)?adxprts\\.com[:/]",
+    "url-filter-is-case-sensitive": true,
+    "load-type": [
+	   "third-party"
+      ]
+    },
+    "action": {
+    "type": "block"
+    }
+  },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?adplxmd\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?yahoo\\.com\/relevantads[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?contentabc\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?mackeeper\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?medleyads\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?traffichaus\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?trafficstars\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?adxpansion\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?livejasmin\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?exoticads\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?ero-advertising\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?acexedge\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?marphezis\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?deliverimp\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?issigpen\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?fqtag\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?smartadserver\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?mathtag\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?mediamath\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?adzdiff\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?topsrvimp\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?flashtalking\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?ads\\.ign\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?spotible\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?tidaltv\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?eyeviewads\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
 ]
