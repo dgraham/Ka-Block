@@ -4480,4 +4480,29 @@
  "type": "block"
  }
  },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?mgid\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ {
+ "trigger": {
+ "url-filter": "^http?:/+([^/:]+\\.)?sales\\.cbs\\.com[:/]",
+ "url-filter-is-case-sensitive": true,
+ "load-type": [
+			   "third-party"
+      ]
+ },
+ "action": {
+ "type": "block"
+ }
+ },
+ 
 ]
