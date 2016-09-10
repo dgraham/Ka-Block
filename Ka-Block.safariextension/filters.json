@@ -4086,7 +4086,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^http?:/+([^/:]+\\.)?adview\\.pl[:/]",
+      "url-filter": "^https?:/+([^/:]+\\.)?adview\\.pl[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4098,7 +4098,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^http?:/+([^/:]+\\.)?gemius\\.pl[:/]",
+      "url-filter": "^https?:/+([^/:]+\\.)?gemius\\.pl[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4110,7 +4110,31 @@
   },
   {
     "trigger": {
-      "url-filter": "^http?:/+([^/:]+\\.)?contentstream\\.pl[:/]",
+      "url-filter": "^https?:/+([^/:]+\\.)?contentstream\\.pl[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?e-planning\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?herolens\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
