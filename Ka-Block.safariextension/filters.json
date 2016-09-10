@@ -317,6 +317,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adplxmd\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adready\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -474,6 +486,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adworx\\.at[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adxpansion\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1761,6 +1785,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?fqtag\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ftjcfx\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2532,7 +2568,31 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?medleyads\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mercent\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mgid\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3411,6 +3471,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?smartadserver\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?sonobi\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3687,7 +3759,31 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?traffichaus\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?trafficjunky\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?trafficstars\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
