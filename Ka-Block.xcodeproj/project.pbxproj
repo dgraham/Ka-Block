@@ -164,10 +164,12 @@
 				TargetAttributes = {
 					03FCD00B1B2AA68A00076943 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = UYW4V22L7E;
 						LastSwiftMigration = 0800;
 					};
 					03FCD0241B2AA77600076943 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = UYW4V22L7E;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -359,6 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UYW4V22L7E;
 				INFOPLIST_FILE = "Ka-Block/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -376,6 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UYW4V22L7E;
 				INFOPLIST_FILE = "Ka-Block/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -391,6 +395,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UYW4V22L7E;
 				INFOPLIST_FILE = "Ka-Block Content Blocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kablock.ios.Ka-Block-Content-Blocker";
@@ -406,6 +411,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UYW4V22L7E;
 				INFOPLIST_FILE = "Ka-Block Content Blocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kablock.ios.Ka-Block-Content-Blocker";
