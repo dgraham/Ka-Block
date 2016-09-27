@@ -10,13 +10,25 @@ class ViewController: UIViewController {
     }
 
     override func viewWillAppear(_ animated: Bool) {
+        NotificationCenter.default.addObserver(self, selector: #selector(checkEnabled), name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)
+        
+        checkEnabled()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)
+    }
+    
+    func checkEnabled() {
         if #available(iOS 10.0, *) {
             SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.kablock.ios.Ka-Block-Content-Blocker", completionHandler: {
                 (state, error) in
-
+                
                 if state != nil {
-                    self.enabledLabel.isHidden = !state!.isEnabled
-                    self.disabledLabel.isHidden = state!.isEnabled
+                    DispatchQueue.main.async {
+                        self.enabledLabel.isHidden = !state!.isEnabled
+                        self.disabledLabel.isHidden = state!.isEnabled
+                    }
                 }
             })
         } else {
