@@ -4350,7 +4350,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?twitter\\.com/oct\\.js$",
+      "url-filter": "^https?:/+([^/:]+\\.)?twitter\\.com/oct\\.js[:/]?",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4374,7 +4374,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?cloudfront\\.net/analytics\\.js$",
+      "url-filter": "^https?:/+([^/:]+\\.)?cloudfront\\.net/analytics\\.js[:/]?",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4386,7 +4386,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?cloudfront\\.net/tracker\\.js$",
+      "url-filter": "^https?:/+([^/:]+\\.)?cloudfront\\.net/tracker\\.js[:/]?",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
