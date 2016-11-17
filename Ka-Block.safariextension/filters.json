@@ -4551,5 +4551,18 @@
     "action": {
       "type": "block"
     }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)youtube\\.com[:/]",
+      "load-type": [
+        "third-party",
+        "first-party"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".ytp-ad-progress-list, .video-ads, .ytp-ad-persistent-progress-bar-container"
+    }
   }
 ]
