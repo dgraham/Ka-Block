@@ -2592,6 +2592,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?metrics\\.brightcove\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mgid\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2941,6 +2953,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?pictela\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?pippio\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
