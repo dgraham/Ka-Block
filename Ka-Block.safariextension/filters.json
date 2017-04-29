@@ -40,6 +40,19 @@
   },
   {
     "trigger": {
+      "url-filter": "/s_code.js",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party",
+        "first-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "/spc\\.php\\?",
       "url-filter-is-case-sensitive": true,
       "load-type": [
