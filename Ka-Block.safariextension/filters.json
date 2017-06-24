@@ -1642,6 +1642,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?estat\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?everestjs\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1958,6 +1970,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gosquared\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?goutee\\.top[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3077,6 +3101,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?pro-market\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?pubdirecte\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
