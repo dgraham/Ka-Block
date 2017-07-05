@@ -1074,6 +1074,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?broadstreetads\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?buysellads\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2282,6 +2294,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?intermarkets\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?invisioncloudstats\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
