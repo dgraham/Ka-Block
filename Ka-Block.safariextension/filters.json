@@ -2185,31 +2185,19 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?hs-scripts\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?usemessages\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?hs-analytics\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?hs-scripts\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
