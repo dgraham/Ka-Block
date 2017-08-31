@@ -14,7 +14,7 @@
 		03FCD0171B2AA68A00076943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FCD0161B2AA68A00076943 /* Assets.xcassets */; };
 		03FCD01A1B2AA68A00076943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FCD0181B2AA68A00076943 /* LaunchScreen.storyboard */; };
 		03FCD02A1B2AA77600076943 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCD0291B2AA77600076943 /* ActionRequestHandler.swift */; };
-		03FCD02E1B2AA77600076943 /* Ka-Block! Content Blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03FCD02E1B2AA77600076943 /* Ka-Block! Content Blocker iOS.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				03FCD02E1B2AA77600076943 /* Ka-Block! Content Blocker.appex in Embed App Extensions */,
+				03FCD02E1B2AA77600076943 /* Ka-Block! Content Blocker iOS.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,14 +43,14 @@
 
 /* Begin PBXFileReference section */
 		03EF8F0A1B33B86F000FAF60 /* filters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = filters.json; path = "Ka-Block.safariextension/filters.json"; sourceTree = SOURCE_ROOT; };
-		03FCD00C1B2AA68A00076943 /* Ka-Block!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ka-Block!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FCD00C1B2AA68A00076943 /* Ka-Block! iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ka-Block! iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FCD00F1B2AA68A00076943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03FCD0111B2AA68A00076943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03FCD0141B2AA68A00076943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03FCD0161B2AA68A00076943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03FCD0191B2AA68A00076943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03FCD01B1B2AA68A00076943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ka-Block! Content Blocker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ka-Block! Content Blocker iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FCD0291B2AA77600076943 /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
 		03FCD02B1B2AA77600076943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +85,8 @@
 		03FCD00D1B2AA68A00076943 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03FCD00C1B2AA68A00076943 /* Ka-Block!.app */,
-				03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker.appex */,
+				03FCD00C1B2AA68A00076943 /* Ka-Block! iOS.app */,
+				03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker iOS.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03FCD00B1B2AA68A00076943 /* Ka-Block! */ = {
+		03FCD00B1B2AA68A00076943 /* Ka-Block! iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03FCD01E1B2AA68A00076943 /* Build configuration list for PBXNativeTarget "Ka-Block!" */;
+			buildConfigurationList = 03FCD01E1B2AA68A00076943 /* Build configuration list for PBXNativeTarget "Ka-Block! iOS" */;
 			buildPhases = (
 				03FCD0081B2AA68A00076943 /* Sources */,
 				03FCD0091B2AA68A00076943 /* Frameworks */,
@@ -131,14 +131,14 @@
 			dependencies = (
 				03FCD02D1B2AA77600076943 /* PBXTargetDependency */,
 			);
-			name = "Ka-Block!";
+			name = "Ka-Block! iOS";
 			productName = "Ka-Block";
-			productReference = 03FCD00C1B2AA68A00076943 /* Ka-Block!.app */;
+			productReference = 03FCD00C1B2AA68A00076943 /* Ka-Block! iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		03FCD0241B2AA77600076943 /* Ka-Block! Content Blocker */ = {
+		03FCD0241B2AA77600076943 /* Ka-Block! Content Blocker iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03FCD0311B2AA77600076943 /* Build configuration list for PBXNativeTarget "Ka-Block! Content Blocker" */;
+			buildConfigurationList = 03FCD0311B2AA77600076943 /* Build configuration list for PBXNativeTarget "Ka-Block! Content Blocker iOS" */;
 			buildPhases = (
 				03FCD0211B2AA77600076943 /* Sources */,
 				03FCD0221B2AA77600076943 /* Frameworks */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = "Ka-Block! Content Blocker";
+			name = "Ka-Block! Content Blocker iOS";
 			productName = "Ka-Block Content Blocker";
-			productReference = 03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker.appex */;
+			productReference = 03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker iOS.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -185,8 +185,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03FCD00B1B2AA68A00076943 /* Ka-Block! */,
-				03FCD0241B2AA77600076943 /* Ka-Block! Content Blocker */,
+				03FCD00B1B2AA68A00076943 /* Ka-Block! iOS */,
+				03FCD0241B2AA77600076943 /* Ka-Block! Content Blocker iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +235,7 @@
 /* Begin PBXTargetDependency section */
 		03FCD02D1B2AA77600076943 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 03FCD0241B2AA77600076943 /* Ka-Block! Content Blocker */;
+			target = 03FCD0241B2AA77600076943 /* Ka-Block! Content Blocker iOS */;
 			targetProxy = 03FCD02C1B2AA77600076943 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03FCD01E1B2AA68A00076943 /* Build configuration list for PBXNativeTarget "Ka-Block!" */ = {
+		03FCD01E1B2AA68A00076943 /* Build configuration list for PBXNativeTarget "Ka-Block! iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03FCD01F1B2AA68A00076943 /* Debug */,
@@ -443,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03FCD0311B2AA77600076943 /* Build configuration list for PBXNativeTarget "Ka-Block! Content Blocker" */ = {
+		03FCD0311B2AA77600076943 /* Build configuration list for PBXNativeTarget "Ka-Block! Content Blocker iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03FCD02F1B2AA77600076943 /* Debug */,
