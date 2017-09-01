@@ -19,7 +19,7 @@
 	<key>Content</key>
 	<dict>
 		<key>Content Blocker</key>
-		<string>filters.json</string>
+		<string>blockerList.json</string>
 	</dict>
 	<key>Description</key>
 	<string>Block advertisements and trackers to enjoy a faster web.</string>
