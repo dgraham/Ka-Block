@@ -1458,6 +1458,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?deployads\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?developermedia\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3172,6 +3184,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?plutusads\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?pointroll\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4424,6 +4448,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?e-planning\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?earnify\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
