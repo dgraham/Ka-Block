@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)
     }
     
-    func checkEnabled() {
+    @objc func checkEnabled() {
         if #available(iOS 10.0, *) {
             SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.kablock.ios.Ka-Block-Content-Blocker", completionHandler: {
                 (state, error) in
