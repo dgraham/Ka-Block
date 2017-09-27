@@ -2389,6 +2389,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?jsecoin\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?kavanga\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4424,6 +4436,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gemius\\.pl[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?coin-hive\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
