@@ -1518,6 +1518,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?districtm\\.ca[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?dl-rms\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2498,6 +2510,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?liftdna\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?ligatus\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3581,6 +3605,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?scripts\\.psyma\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?sddan\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
