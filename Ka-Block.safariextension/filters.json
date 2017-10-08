@@ -294,6 +294,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?admantx\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?admitad\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3580,6 +3592,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?segment\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?segment\\.io[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3641,6 +3665,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?serving-sys\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?sharethrough\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
