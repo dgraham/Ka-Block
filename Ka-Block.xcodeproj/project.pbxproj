@@ -67,7 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		037E1B221F58C5DE00E90B3F /* Ka-Block! macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ka-Block! macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		037E1B221F58C5DE00E90B3F /* Ka-Block!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ka-Block!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		037E1B241F58C5DE00E90B3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		037E1B261F58C5DE00E90B3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		037E1B281F58C5DE00E90B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		03B08AAB1F58FEB00041C7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03E9442B1F58FFD400187B69 /* Ka-Block Content Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Ka-Block Content Blocker.entitlements"; path = "Ka-Block Content Blocker/macOS/Ka-Block Content Blocker.entitlements"; sourceTree = SOURCE_ROOT; };
 		03EF8F0A1B33B86F000FAF60 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = "Ka-Block.safariextension/blockerList.json"; sourceTree = SOURCE_ROOT; };
-		03FCD00C1B2AA68A00076943 /* Ka-Block! iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ka-Block! iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FCD00C1B2AA68A00076943 /* Ka-Block!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ka-Block!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FCD00F1B2AA68A00076943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03FCD0111B2AA68A00076943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03FCD0141B2AA68A00076943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -189,9 +189,9 @@
 		03FCD00D1B2AA68A00076943 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03FCD00C1B2AA68A00076943 /* Ka-Block! iOS.app */,
+				03FCD00C1B2AA68A00076943 /* Ka-Block!.app */,
 				03FCD0251B2AA77600076943 /* Ka-Block! Content Blocker iOS.appex */,
-				037E1B221F58C5DE00E90B3F /* Ka-Block! macOS.app */,
+				037E1B221F58C5DE00E90B3F /* Ka-Block!.app */,
 				03B08AA01F58FEB00041C7D9 /* Ka-Block! Content Blocker macOS.appex */,
 			);
 			name = Products;
@@ -235,7 +235,7 @@
 			);
 			name = "Ka-Block! macOS";
 			productName = "Ka-Block";
-			productReference = 037E1B221F58C5DE00E90B3F /* Ka-Block! macOS.app */;
+			productReference = 037E1B221F58C5DE00E90B3F /* Ka-Block!.app */;
 			productType = "com.apple.product-type.application";
 		};
 		03B08A9F1F58FEB00041C7D9 /* Ka-Block! Content Blocker macOS */ = {
@@ -271,7 +271,7 @@
 			);
 			name = "Ka-Block! iOS";
 			productName = "Ka-Block";
-			productReference = 03FCD00C1B2AA68A00076943 /* Ka-Block! iOS.app */;
+			productReference = 03FCD00C1B2AA68A00076943 /* Ka-Block!.app */;
 			productType = "com.apple.product-type.application";
 		};
 		03FCD0241B2AA77600076943 /* Ka-Block! Content Blocker iOS */ = {
@@ -470,7 +470,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Ka-Block/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.macos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -491,7 +491,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Ka-Block/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.macos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				SDKROOT = macosx;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -645,7 +645,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
@@ -665,7 +665,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
