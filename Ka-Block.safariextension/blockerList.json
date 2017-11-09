@@ -978,6 +978,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?authedmine\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?betrad\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4532,6 +4544,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gemius\\.pl[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?coinhive\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
