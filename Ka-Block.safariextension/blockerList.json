@@ -174,6 +174,30 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adbetclickin\\.pink[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adbetnet\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adblade\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -822,6 +846,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?betweendigital\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?bkrtx\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -895,6 +931,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?cxense\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?etcodes\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -2761,6 +2809,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mediametrics\\.ru[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?meetrics\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2930,6 +2990,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mxptint\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mxtads\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3425,6 +3497,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?r7ls\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?redtram\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4169,6 +4253,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?tru\\.am[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?ts-ads\\.info[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
