@@ -1494,6 +1494,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?decibelinsight\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?demdex\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2617,6 +2629,30 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?luckyorange\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?luckyorange\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?luxadv\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2894,6 +2930,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mookie1\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mouseflow\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3436,6 +3484,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?quantummetric\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?questionmarket\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3604,6 +3664,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?salemove\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?sascdn\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3760,6 +3832,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?sessioncam\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?sharethrough\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3833,6 +3917,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?smartadserver\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?smartlook\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4277,6 +4373,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?usabilla\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?userreplay\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4736,6 +4844,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?flurry\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?fullstory\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
