@@ -2953,6 +2953,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?nanovisor\\.io[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?naytev\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3629,6 +3641,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?scripts\\.psyma\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?sdad\\.guru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4736,6 +4760,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?geobytes\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?i10c\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
