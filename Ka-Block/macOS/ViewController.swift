@@ -1,4 +1,5 @@
 import Cocoa
+import SafariServices
 
 class ViewController: NSViewController {
     @IBOutlet weak var enabledLabel: NSTextField!
@@ -8,11 +9,20 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let isEnabled = true
-        self.enabledLabel.isHidden = !isEnabled
-        self.disabledLabel.isHidden = isEnabled
-        self.enabledImage.isHidden = !isEnabled
-        self.disabledImage.isHidden = isEnabled
+
+        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.kablock.macos.Ka-Block-Content-Blocker") {
+            (state, error) in
+
+            if let state = state {
+                DispatchQueue.main.async {
+                    let isEnabled = state.isEnabled
+                    self.enabledLabel.isHidden = !isEnabled
+                    self.disabledLabel.isHidden = isEnabled
+                    self.enabledImage.isHidden = !isEnabled
+                    self.disabledImage.isHidden = isEnabled
+                }
+            }
+        }
     }
 
     override var representedObject: Any? {
