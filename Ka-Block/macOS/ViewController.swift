@@ -10,6 +10,17 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        updateContentBlockerState()
+        Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(ViewController.updateContentBlockerState), userInfo: nil, repeats: true)
+    }
+
+    override var representedObject: Any? {
+        didSet {
+            // Update the view, if already loaded.
+        }
+    }
+
+    @objc func updateContentBlockerState() {
         SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.kablock.macos.Ka-Block-Content-Blocker") {
             (state, error) in
 
@@ -22,12 +33,6 @@ class ViewController: NSViewController {
                     self.disabledImage.isHidden = isEnabled
                 }
             }
-        }
-    }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
         }
     }
 }
