@@ -138,6 +138,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?acxiomapac\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?acxiom-online\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -834,6 +846,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?behavioralengine\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?beap-bc\\.yahoo\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -991,6 +1015,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?atwola\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?audienceinsights\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3122,6 +3158,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?omtrdc\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?onaudience\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
