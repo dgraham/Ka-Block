@@ -61,7 +61,8 @@ it at all.
 
 ## Installation
 
-Ka-Block! can be installed from the [Safari Extensions Gallery][gallery].
+Ka-Block! can be installed from the [Safari Extensions Gallery][gallery],
+[Mac App Store][macos], or the [App Store][ios] for iOS.
 
 Alternatively, you can download the [latest Ka-Block.safariextz][latest]
 file and double-click to install.
@@ -82,4 +83,6 @@ file for details.
 
 [latest]: https://github.com/dgraham/Ka-Block/releases/latest
 [gallery]: https://safari-extensions.apple.com/details/?id=com.kablock.osx-UYW4V22L7E
+[macos]: https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12
+[ios]: https://geo.itunes.apple.com/us/app/ka-block!/id1037173557?mt=8
 
