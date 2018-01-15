@@ -71,7 +71,7 @@ file and double-click to install.
 
 If there's a pesky ad-serving domain that's getting through the filter, open
 a pull request with the domain and a site or two on which its ads appear. We'll
-add it to the [blocked domains list](/Ka-Block.safariextension/filters.json)
+add it to the [blocked domains list](/Ka-Block.safariextension/blockerList.json)
 and release a new version of the extension to include it.
 
 ## License
