@@ -66,6 +66,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?1rx\\.io[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?247realmedia\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -211,6 +223,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adcash\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?addroplet\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1375,6 +1399,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?collserve\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?connatix\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -2582,6 +2618,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?lexity\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?liadm\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4048,6 +4096,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?spotxcdn\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?spotxchange\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4480,6 +4540,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?udmserve\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ugdturner\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4493,6 +4565,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?umbel\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?underdog\\.media[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
