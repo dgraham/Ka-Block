@@ -28,6 +28,10 @@
 		<string>com.apple.Safari.content-blocker</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).ContentBlockerRequestHandler</string>
+		<key>SFSafariExtensionBundleIdentifiersToUninstall</key>
+		<array>
+			<string>com.kablock.osx</string>
+		</array>
 	</dict>
 	<key>NSHumanReadableDescription</key>
 	<string>Block advertisements and tracking scripts.</string>
