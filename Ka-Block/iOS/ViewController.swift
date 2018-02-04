@@ -23,10 +23,10 @@ class ViewController: UIViewController {
         SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.kablock.ios.Ka-Block-Content-Blocker", completionHandler: {
             (state, error) in
 
-            if state != nil {
+            if let state = state {
                 DispatchQueue.main.async {
-                    self.enabledLabel.isHidden = !state!.isEnabled
-                    self.disabledLabel.isHidden = state!.isEnabled
+                    self.enabledLabel.isHidden = !state.isEnabled
+                    self.disabledLabel.isHidden = state.isEnabled
                 }
             }
         })
