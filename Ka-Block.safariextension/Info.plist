@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>David Graham &amp; Josh Peek</string>
 	<key>Builder Version</key>
-	<string>13604.1.38.1.6</string>
+	<string>13604.4.7.1.6</string>
 	<key>CFBundleDisplayName</key>
 	<string>Ka-Block!</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.10</string>
+	<string>3.0</string>
 	<key>CFBundleVersion</key>
-	<string>210</string>
+	<string>300</string>
 	<key>Content</key>
 	<dict>
 		<key>Content Blocker</key>

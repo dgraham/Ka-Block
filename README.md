@@ -53,15 +53,15 @@ This ad filtering code makes *zero* network connections. The only way for the
 list of blocked domains to be updated is to release a new version of the
 extension itself.
 
-The filtering is implemented in less than 100 lines of JavaScript. Each time
-an image or JavaScript file is requested by a page, Safari checks with this
-extension to determine if it's allowed to download it. If the resource is
-served by a blocked domain, it's rejected and the browser doesn't download
-it at all.
+The filtering extension has no access to the pages or sites loaded by the
+browser. No code from this extension even runs while browsing the web.
+Ka-Block! provides the list of filtered domains to Safari and the browser
+does the rest, maintaining your privacy.
 
 ## Installation
 
-Ka-Block! can be installed from the [Safari Extensions Gallery][gallery].
+Ka-Block! can be installed from the [Safari Extensions Gallery][gallery],
+[Mac App Store][macos], or the [App Store][ios] for iOS.
 
 Alternatively, you can download the [latest Ka-Block.safariextz][latest]
 file and double-click to install.
@@ -70,7 +70,7 @@ file and double-click to install.
 
 If there's a pesky ad-serving domain that's getting through the filter, open
 a pull request with the domain and a site or two on which its ads appear. We'll
-add it to the [blocked domains list](/Ka-Block.safariextension/filters.json)
+add it to the [blocked domains list](/Ka-Block.safariextension/blockerList.json)
 and release a new version of the extension to include it.
 
 ## License
@@ -82,4 +82,5 @@ file for details.
 
 [latest]: https://github.com/dgraham/Ka-Block/releases/latest
 [gallery]: https://safari-extensions.apple.com/details/?id=com.kablock.osx-UYW4V22L7E
-
+[macos]: https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12
+[ios]: https://geo.itunes.apple.com/us/app/ka-block!/id1037173557?mt=8
