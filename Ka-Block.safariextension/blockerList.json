@@ -3167,6 +3167,18 @@
       "type": "block"
     }
   },
+   {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mrelko\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?msads\\.net[:/]",
@@ -3266,6 +3278,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?netshelter\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?newrelic\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4193,6 +4217,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?smartlook\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?smilered\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
