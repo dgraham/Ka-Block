@@ -3313,6 +3313,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?socialmart\\.ru[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?oewabox\\.at[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
