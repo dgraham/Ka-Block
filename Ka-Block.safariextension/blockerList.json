@@ -3592,6 +3592,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?popads\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?postrelease\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
