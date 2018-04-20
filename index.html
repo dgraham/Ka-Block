@@ -10,196 +10,200 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180.png">
   </head>
   <body>
-    <nav class="block nav-block" aria-label="Global">
-      <div class="block-content">
-        <ul class="nav-links">
-          <li><a class="nav-link" href="https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12">Desktop</a></li>
-          <li><a class="nav-link" href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">App Store</a></li>
-          <li><a class="nav-link" href="https://github.com/dgraham/Ka-Block">GitHub</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="block nav-block" aria-label="Global">
+        <div class="block-content">
+          <ul class="nav-links">
+            <li><a class="nav-link" href="https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12">Desktop</a></li>
+            <li><a class="nav-link" href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">App Store</a></li>
+            <li><a class="nav-link" href="https://github.com/dgraham/Ka-Block">GitHub</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="block header-block" aria-label="Introduction">
+        <div class="block-content">
+          <h1 class="product-name">Ka-Block!</h1>
+          <h2 class="lead">
+            A Safari browser extension that blocks an artisanal selection
+            of advertisements and trackers for a faster web.
+          </h2>
+        </div>
+      </section>
 
-    <section class="block header-block" aria-label="Introduction">
-      <div class="block-content">
-        <h1 class="product-name">Ka-Block!</h1>
-        <h2 class="lead">
-          A Safari browser extension that blocks an artisanal selection
-          of advertisements and trackers for a faster web.
-        </h2>
-      </div>
-    </section>
+      <section class="block hero-block">
+        <div class="block-content">
+          <img class="hero" src="images/app-iphone.png" alt="Ka-Block! iPhone app">
+        </div>
+      </section>
 
-    <section class="block hero-block">
-      <div class="block-content">
-        <img class="hero" src="images/app-iphone.png" alt="Ka-Block! iPhone app">
-      </div>
-    </section>
-
-    <section class="block download-block">
-      <div class="block-content">
-        <a href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">
-          <img class="app-store-btn" src="images/app-store.png" alt="Download on the App Store">
-        </a>
-      </div>
-    </section>
-
-    <section class="block request-block spaced bordered" aria-label="Battery life">
-      <div class="block-content">
-        <h2 class="block-title">Use battery life for browsing, not tracking your behavior</h2>
-        <p class="lead">
-          Many sites use third-party scripts to track your behavior across the web.
-          This requires an enormous number of requests, which drain your phone’s battery.
-        </p>
-        <div class="graph graph-requests graph-requests-a">
-          <div class="before">
-            <span class="graph-label">211</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">59</span>
-          </div>
-          <h3 class="graph-title">theverge.com</h3>
-        </div>
-        <div class="graph graph-requests graph-requests-b">
-          <div class="before">
-            <span class="graph-label">264</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">82</span>
-          </div>
-          <h3 class="graph-title">businessinsider.com</h3>
-        </div>
-        <div class="graph graph-requests graph-requests-c">
-          <div class="before">
-            <span class="graph-label">339</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">155</span>
-          </div>
-          <h3 class="graph-title">cnn.com</h3>
-        </div>
-        <div class="graph graph-requests graph-requests-d">
-          <div class="before">
-            <span class="graph-label">263</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">159</span>
-          </div>
-          <h3 class="graph-title">huffpost.com</h3>
-        </div>
-        <div class="graph graph-requests graph-requests-e">
-          <div class="before">
-            <span class="graph-label">212</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">142</span>
-          </div>
-          <h3 class="graph-title">nytimes.com</h3>
-        </div>
-        <div class="graph-legend">
-          Requests per page before and after blocking
-        </div>
-      </div>
-    </section>
-
-    <section class="block bandwidth-block spaced bordered" aria-label="Performance">
-      <div class="block-content">
-        <h2 class="block-title">Browsing the web doesn't need to be slow</h2>
-        <p class="lead">
-          Advertisements are not optimized for the mobile web. They consume
-          a huge amount of bandwidth, causing pages to load slowly.
-        </p>
-        <div class="graph graph-size graph-size-a">
-          <div class="before">
-            <span class="graph-label">7.1</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">2.8</span>
-          </div>
-          <h3 class="graph-title">theverge.com</h3>
-        </div>
-        <div class="graph graph-size graph-size-b">
-          <div class="before">
-            <span class="graph-label">6.2</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">2.7</span>
-          </div>
-          <h3 class="graph-title">businessinsider.com</h3>
-        </div>
-        <div class="graph graph-size graph-size-c">
-          <div class="before">
-            <span class="graph-label">11.4</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">6.5</span>
-          </div>
-          <h3 class="graph-title">cnn.com</h3>
-        </div>
-        <div class="graph graph-size graph-size-d">
-          <div class="before">
-            <span class="graph-label">7.5</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">5.8</span>
-          </div>
-          <h3 class="graph-title">huffpost.com</h3>
-        </div>
-        <div class="graph graph-size graph-size-e">
-          <div class="before">
-            <span class="graph-label">4.2</span>
-          </div>
-          <div class="after">
-            <span class="graph-label">3.2</span>
-          </div>
-          <h3 class="graph-title">nytimes.com</h3>
-        </div>
-        <div class="graph-legend">
-          Page size before and after blocking (in MB)
-        </div>
-      </div>
-    </section>
-
-    <section class="block author-block spaced" aria-label="Authors">
-      <div class="block-content">
-        <h2 class="block-title">Made by people</h2>
-        <p class="lead">
-          Protecting privacy on the web is important. We hope you enjoy Ka-Block!
-        </p>
-        <div class="author-info">
-          <a href="https://twitter.com/davidgraham">
-            <img class="avatar" src="https://github.com/dgraham.png?s=200" alt="David Graham">
+      <section class="block download-block">
+        <div class="block-content">
+          <a href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">
+            <img class="app-store-btn" src="images/app-store.png" alt="Download on the App Store">
           </a>
-          <h3 class="author-name">David Graham</h3>
-          <a class="author-link" href="https://twitter.com/davidgraham">@davidgraham</a>
         </div>
+      </section>
 
-        <div class="author-info">
-          <a href="https://twitter.com/joshpeek">
-            <img class="avatar" src="https://github.com/josh.png?s=200" alt="Josh Peek">
+      <section class="block request-block spaced bordered" aria-label="Battery life">
+        <div class="block-content">
+          <h2 class="block-title">Use battery life for browsing, not tracking your behavior</h2>
+          <p class="lead">
+            Many sites use third-party scripts to track your behavior across the web.
+            This requires an enormous number of requests, which drain your phone’s battery.
+          </p>
+          <div class="graph graph-requests graph-requests-a">
+            <div class="before">
+              <span class="graph-label">211</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">59</span>
+            </div>
+            <h3 class="graph-title">theverge.com</h3>
+          </div>
+          <div class="graph graph-requests graph-requests-b">
+            <div class="before">
+              <span class="graph-label">264</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">82</span>
+            </div>
+            <h3 class="graph-title">businessinsider.com</h3>
+          </div>
+          <div class="graph graph-requests graph-requests-c">
+            <div class="before">
+              <span class="graph-label">339</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">155</span>
+            </div>
+            <h3 class="graph-title">cnn.com</h3>
+          </div>
+          <div class="graph graph-requests graph-requests-d">
+            <div class="before">
+              <span class="graph-label">263</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">159</span>
+            </div>
+            <h3 class="graph-title">huffpost.com</h3>
+          </div>
+          <div class="graph graph-requests graph-requests-e">
+            <div class="before">
+              <span class="graph-label">212</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">142</span>
+            </div>
+            <h3 class="graph-title">nytimes.com</h3>
+          </div>
+          <div class="graph-legend">
+            Requests per page before and after blocking
+          </div>
+        </div>
+      </section>
+
+      <section class="block bandwidth-block spaced bordered" aria-label="Performance">
+        <div class="block-content">
+          <h2 class="block-title">Browsing the web doesn't need to be slow</h2>
+          <p class="lead">
+            Advertisements are not optimized for the mobile web. They consume
+            a huge amount of bandwidth, causing pages to load slowly.
+          </p>
+          <div class="graph graph-size graph-size-a">
+            <div class="before">
+              <span class="graph-label">7.1</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">2.8</span>
+            </div>
+            <h3 class="graph-title">theverge.com</h3>
+          </div>
+          <div class="graph graph-size graph-size-b">
+            <div class="before">
+              <span class="graph-label">6.2</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">2.7</span>
+            </div>
+            <h3 class="graph-title">businessinsider.com</h3>
+          </div>
+          <div class="graph graph-size graph-size-c">
+            <div class="before">
+              <span class="graph-label">11.4</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">6.5</span>
+            </div>
+            <h3 class="graph-title">cnn.com</h3>
+          </div>
+          <div class="graph graph-size graph-size-d">
+            <div class="before">
+              <span class="graph-label">7.5</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">5.8</span>
+            </div>
+            <h3 class="graph-title">huffpost.com</h3>
+          </div>
+          <div class="graph graph-size graph-size-e">
+            <div class="before">
+              <span class="graph-label">4.2</span>
+            </div>
+            <div class="after">
+              <span class="graph-label">3.2</span>
+            </div>
+            <h3 class="graph-title">nytimes.com</h3>
+          </div>
+          <div class="graph-legend">
+            Page size before and after blocking (in MB)
+          </div>
+        </div>
+      </section>
+
+      <section class="block author-block spaced" aria-label="Authors">
+        <div class="block-content">
+          <h2 class="block-title">Made by people</h2>
+          <p class="lead">
+            Protecting privacy on the web is important. We hope you enjoy Ka-Block!
+          </p>
+          <div class="author-info">
+            <a href="https://twitter.com/davidgraham">
+              <img class="avatar" src="https://github.com/dgraham.png?s=200" alt="David Graham">
+            </a>
+            <h3 class="author-name">David Graham</h3>
+            <a class="author-link" href="https://twitter.com/davidgraham">@davidgraham</a>
+          </div>
+
+          <div class="author-info">
+            <a href="https://twitter.com/joshpeek">
+              <img class="avatar" src="https://github.com/josh.png?s=200" alt="Josh Peek">
+            </a>
+            <h3 class="author-name">Josh Peek</h3>
+            <a class="author-link" href="https://twitter.com/joshpeek">@joshpeek</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo">
+      <section class="block footer-block">
+        <div class="block-content">
+          <a href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">
+            <img class="app-store-btn" src="images/app-store.png" alt="Download on the App Store">
           </a>
-          <h3 class="author-name">Josh Peek</h3>
-          <a class="author-link" href="https://twitter.com/joshpeek">@joshpeek</a>
+          <p class="credits">
+            Ka-Block! &copy;
+            <a href="https://github.com/dgraham">David Graham</a> &amp;
+            <a href="https://github.com/josh">Josh Peek</a>.
+          </p>
+          <ul class="nav-links" role="navigation" aria-label="Global">
+            <li><a class="nav-link" href="https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12">Desktop</a></li>
+            <li><a class="nav-link" href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">App Store</a></li>
+            <li><a class="nav-link" href="https://github.com/dgraham/Ka-Block">GitHub</a></li>
+          </ul>
         </div>
-      </div>
-    </section>
-
-    <section class="block footer-block">
-      <div class="block-content">
-        <a href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">
-          <img class="app-store-btn" src="images/app-store.png" alt="Download on the App Store">
-        </a>
-        <p class="credits">
-          Ka-Block! &copy;
-          <a href="https://github.com/dgraham">David Graham</a> &amp;
-          <a href="https://github.com/josh">Josh Peek</a>.
-        </p>
-        <ul class="nav-links">
-          <li><a class="nav-link" href="https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12">Desktop</a></li>
-          <li><a class="nav-link" href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">App Store</a></li>
-          <li><a class="nav-link" href="https://github.com/dgraham/Ka-Block">GitHub</a></li>
-        </ul>
-      </div>
-    </section>
+      </section>
+    </footer>
   </body>
 </html>
