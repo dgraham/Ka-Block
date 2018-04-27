@@ -414,6 +414,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adobedtm\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adobetag\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -798,6 +810,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adservice\\.google\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adsrvr\\.org[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -979,6 +1003,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?boomtrain\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?boredcrown\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
