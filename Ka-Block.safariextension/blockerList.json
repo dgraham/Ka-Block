@@ -4720,6 +4720,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?://try\\.abtasty\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ts-ads\\.info[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
