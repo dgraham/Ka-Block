@@ -186,6 +186,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?ad-delivery\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ad\\.rambler\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2786,6 +2798,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?linkconnector\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?ads\\.linkedin\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
