@@ -4960,6 +4960,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?vdna-assets\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?veinteractive\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5033,6 +5045,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?visualrevenue\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?vntsm\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
