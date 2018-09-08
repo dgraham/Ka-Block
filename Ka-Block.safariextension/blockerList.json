@@ -4900,6 +4900,30 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?uim\\.tifbs\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?uimserv\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?umbel\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
