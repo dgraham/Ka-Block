@@ -846,6 +846,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?ad-srv\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adsrvr\\.org[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1098,6 +1110,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?emetriq\\.de[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?etcodes\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1195,6 +1219,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?authedmine\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?awin1\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3916,6 +3952,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?research\\.de\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?researchnow\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5288,6 +5336,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?xiti\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?xplosion\\.de[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
