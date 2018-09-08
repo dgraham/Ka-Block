@@ -834,6 +834,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.edgesuite\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.revee\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1015,6 +1027,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?bc\\.yahoo\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?beemray\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
