@@ -120,9 +120,23 @@ a:hover {
   text-align: center;
 }
 
-.app-store-btn {
+.ios-app-store-btn {
   width: 135px;
   height: 45px;
+}
+
+.mac-app-store-btn {
+  display: none;
+  width: 176px;
+  height: 45px;
+}
+
+.macos .mac-app-store-btn {
+  display: inline;
+}
+
+.macos .ios-app-store-btn {
+  display: none;
 }
 
 .graph {

@@ -41,7 +41,10 @@
       <section class="block download-block">
         <div class="block-content">
           <a href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">
-            <img class="app-store-btn" src="images/ios-app-store-black.png" alt="Download on the App Store">
+            <img class="ios-app-store-btn" src="images/ios-app-store-black.png" alt="Download on the App Store">
+          </a>
+          <a href="https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12">
+            <img class="mac-app-store-btn" src="images/mac-app-store-black.png" alt="Download on the Mac App Store">
           </a>
         </div>
       </section>
@@ -194,7 +197,10 @@
       <section class="block footer-block">
         <div class="block-content">
           <a href="https://itunes.apple.com/us/app/ka-block/id1037173557?mt=8">
-            <img class="app-store-btn" src="images/ios-app-store-white.png" alt="Download on the App Store">
+            <img class="ios-app-store-btn" src="images/ios-app-store-white.png" alt="Download on the App Store">
+          </a>
+          <a href="https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12">
+            <img class="mac-app-store-btn" src="images/mac-app-store-white.png" alt="Download on the Mac App Store">
           </a>
           <p class="credits">
             Ka-Block! &copy;
@@ -209,5 +215,10 @@
         </div>
       </section>
     </footer>
+    <script>
+      const mac = navigator.userAgent.indexOf('Macintosh') !== -1
+      document.body.classList.add(mac ? 'macos' : 'ios')
+    </script>
   </body>
 </html>
+
