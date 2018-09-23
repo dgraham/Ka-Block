@@ -90,12 +90,13 @@ a:hover {
 }
 
 .header-block .lead {
-  color: rgb(110, 110, 119);
+  color: rgb(140, 140, 151);
   font-size: 1.5rem;
   margin-bottom: 0;
 }
 
 .block-title {
+  color: #454545;
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 0.75rem;
