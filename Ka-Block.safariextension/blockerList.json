@@ -1878,6 +1878,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?dianomi\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?digitaltarget\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3386,6 +3398,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mparticle\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?mplxtms\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
