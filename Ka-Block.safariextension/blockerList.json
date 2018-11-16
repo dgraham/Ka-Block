@@ -5956,5 +5956,17 @@
     "action": {
       "type": "block"
     }
+  },
+  {
+      "trigger": {
+          "url-filter": "^https?://www\\.youtube\\.com/get_midroll_info?.*",
+          "url-filter-is-case-sensitive": false,
+          "load-type": [
+              "first-party"
+          ]
+      },
+      "action": {
+          "type": "block"
+      }
   }
 ]
