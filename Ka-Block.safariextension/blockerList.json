@@ -3961,6 +3961,17 @@
     "action": {
       "type": "block"
     }
+  },{
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?promokrot\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
   },
   {
     "trigger": {
@@ -4984,6 +4995,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?traffic-media\\.co[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?traffichaus\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5249,6 +5272,30 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?userreport\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?utarget\\.pro[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?utarget\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
