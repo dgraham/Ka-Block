@@ -126,6 +126,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?3gl\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?3lift\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1411,6 +1423,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?blogads\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?blueconic\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
