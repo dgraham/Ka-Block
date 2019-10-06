@@ -2581,6 +2581,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?gscontxt\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gscounters\\.eu1\\.gigya\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2774,6 +2786,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?indexww\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?s\\.infogram\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
