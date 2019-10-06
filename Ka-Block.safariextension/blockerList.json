@@ -1734,6 +1734,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?connextra\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?content\\.ad[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3409,6 +3421,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?micpn\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mixadvert\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3638,6 +3662,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?neodatagroup\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?nervoussummer\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -5333,6 +5369,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?underdog\\.media[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?unid\\.go\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
