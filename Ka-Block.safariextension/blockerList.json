@@ -1,6 +1,15 @@
 [
   {
     "trigger": {
+      "url-filter": "google\\..*\\/search"
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "#taw"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "/_ads/",
       "url-filter-is-case-sensitive": true,
       "load-type": [
