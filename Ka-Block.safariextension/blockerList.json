@@ -78,43 +78,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?1rx\\.io[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?247realmedia\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?2mdn\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?2o7\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -162,18 +126,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?aamsitecertifier\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?acint\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -187,30 +139,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?actionteaser\\.ru[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?acxiomapac\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?acxiom-online\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -247,18 +175,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ad\\.rambler\\.ru[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adadviser\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -342,18 +258,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adform\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adfox\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -367,18 +271,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adition\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adjuggler\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -451,42 +343,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?admixer\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adnxs\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adobedtm\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adobetag\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -592,31 +448,7 @@
       "type": "block"
     }
   },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adsnative\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adsonar\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
+ {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adspeed\\.net[:/]",
       "url-filter-is-case-sensitive": true,
@@ -714,18 +546,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adworx\\.at[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adxpansion\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -750,43 +570,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?adzerk\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?afy11\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?agilone\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?agkn\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -859,54 +643,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mc\\.yandex\\.ru[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.edgekey\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.edgesuite\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.revee\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?answerscloud\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1012,31 +748,7 @@
       "type": "block"
     }
   },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?b\\.aol\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?b2c\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
+ {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?backbeatmedia\\.com[:/]",
       "url-filter-is-case-sensitive": true,
@@ -1063,18 +775,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?bazaarvoice\\.com/.*/magpie\\.js",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?bc\\.yahoo\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1134,18 +834,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?bkrtx\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?bmmetrix\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1171,30 +859,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?boredcrown\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?btrll\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?btserve\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1300,19 +964,7 @@
       "type": "block"
     }
   },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ysm\\.yahoo\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
+ {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?atdmt\\.com[:/]",
       "url-filter-is-case-sensitive": true,
@@ -1326,31 +978,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?atwola\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?audienceinsights\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?authedmine\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1399,18 +1027,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?bizible\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?bizographics\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1482,18 +1098,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?brcdn\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?brdmin\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1519,18 +1123,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?buysellads\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?callingjustified\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1638,18 +1230,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?chitika\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?clkcln\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1687,30 +1267,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?clicktale\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?collect\\.igodigital\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?collective-media\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1878,31 +1434,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?crsspxl\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?crwdcntrl\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ct\\.buzzfeed\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1927,18 +1459,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?decibelinsight\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?demdex\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -2034,18 +1554,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?dmtry\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?dotomi\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2096,19 +1604,7 @@
       "type": "block"
     }
   },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?dwin1\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
+ {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?dynamicyield\\.com[:/]",
       "url-filter-is-case-sensitive": true,
@@ -2242,18 +1738,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?estat\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?everestjs\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2302,18 +1786,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?exosrv\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?exponential\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2338,30 +1810,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?fastclick\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?fetchback\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?firstimpression\\.io[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2375,18 +1823,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?flashtalking\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?flite\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -2434,18 +1870,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ftjcfx\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?fwmrm\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2474,18 +1898,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?getsidecar\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?go-mpulse\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -2605,30 +2017,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?gravity\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?gscontxt\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gscounters\\.eu1\\.gigya\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2654,18 +2042,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gscounters\\.us1\\.gigya\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?gssprt\\.jp[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -2761,30 +2137,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?hs-analytics\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?hs-scripts\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?hubspot\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2798,30 +2150,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?iadvize\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?imrworldwide\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?indexww\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -2893,18 +2221,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?intergi\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?intermarkets\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2917,43 +2233,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?invisioncloudstats\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ioam\\.de[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?iperceptions\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ipredictive\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3025,30 +2305,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?korrelate\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?krxd\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?lentainform\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3062,18 +2318,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?lexity\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?liadm\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3134,30 +2378,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ads\\.linkedin\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?linksynergy\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?lirte\\.org[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3517,31 +2737,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?monetate\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?monitus\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?mookie1\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3577,18 +2773,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?mplxtms\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mpstat\\.us[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3602,18 +2786,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?mrelko\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?msads\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3769,43 +2941,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ntv\\.io[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?socialmart\\.ru[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?oewabox\\.at[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?omtrdc\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3830,18 +2966,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?oogala\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?opbandit\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3973,18 +3097,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?pictela\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?pippio\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4004,18 +3116,6 @@
       ],
       "resource-type": [
         "image"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?pixel\\.parsely\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
       ]
     },
     "action": {
@@ -4108,18 +3208,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?pro-market\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?promokrot\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4156,31 +3244,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?pulsemgr\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?px\\.owneriq\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?pzkysq\\.pink[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4216,18 +3280,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?quantserve\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?quantummetric\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4241,18 +3293,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?questionmarket\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?r7ls\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4397,30 +3437,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?revsci\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?rfihub\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?rlcdn\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4624,18 +3640,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?serving-sys\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?sessioncam\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4804,18 +3808,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?spotxcdn\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?spotxchange\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4829,18 +3821,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?sprinklecontent\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?sprinkletxt\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4912,18 +3892,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?summerhamster\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?sumome\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4960,31 +3928,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?sync\\.adap\\.tv[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?taboola(syndication)?\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?tacoda\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -5057,42 +4001,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?teads\\.tv[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?tiqcdn\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?thangasoline\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?thebrighttag\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -5368,18 +4276,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?uimserv\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?umbel\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5500,18 +4396,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?vdna-assets\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?veinteractive\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5585,18 +4469,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?visualrevenue\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?vntsm\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -5815,18 +4687,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?zqtk\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adview\\.pl[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5840,18 +4700,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?gemius\\.pl[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?coinhive\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -5959,31 +4807,7 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ad\\.pxlad\\.io[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?measuread\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?nuggad\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -6008,18 +4832,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.twitter\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ads-twitter\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -6163,30 +4975,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ipstat\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?ipaddresslabs\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adikteev\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -6200,30 +4988,6 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?cedexis\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?cedexis\\.net[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": [
-        "third-party"
-      ]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?mfadsrvr\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
