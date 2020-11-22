@@ -3061,6 +3061,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?isepcvsb\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?jsecoin\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4432,6 +4444,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?disqusads\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?res-x\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4649,6 +4673,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?sddan\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?secureaddisplay\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
