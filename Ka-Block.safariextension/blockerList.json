@@ -1720,6 +1720,18 @@
       "type": "block"
     }
   },
+    {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?clarity\\.ms[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?clkcln\\.com[:/]",
