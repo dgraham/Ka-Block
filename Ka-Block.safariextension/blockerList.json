@@ -234,6 +234,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adkernel\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ad-delivery\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -762,6 +774,54 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?ad\\.mediawayss\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?ad\\.mox\\.tv[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?ad\\.outstream\\.today[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adprofits\\.ru[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?afy11\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -811,6 +871,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ak\\.sail-horizon\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?aliadvert\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1648,6 +1720,18 @@
       "type": "block"
     }
   },
+    {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?clarity\\.ms[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?clkcln\\.com[:/]",
@@ -2423,6 +2507,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?fqtag\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?franecki\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3805,6 +3901,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?octclck\\.xyz[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?omtrdc\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5153,6 +5261,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?traffic-media\\.co[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?traffic-media\\.co\\.uk[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
