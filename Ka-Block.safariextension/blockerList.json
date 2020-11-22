@@ -2434,6 +2434,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?franecki\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ftjcfx\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5153,6 +5165,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?traffic-media\\.co[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?traffic-media\\.co\\.uk[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
