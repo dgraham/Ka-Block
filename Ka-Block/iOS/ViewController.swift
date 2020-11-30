@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
     
     @objc func checkEnabled() {
-        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.kablock.ios.Ka-Block-Content-Blocker", completionHandler: {
+        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.kablock.ios.KaBlockContentBlocker", completionHandler: {
             (state, error) in
 
             if let state = state {
