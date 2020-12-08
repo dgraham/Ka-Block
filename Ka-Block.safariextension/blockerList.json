@@ -1062,6 +1062,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adpatrof\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.yahoo\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2206,6 +2218,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?d-ughwashes\\.ru[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?eclkmpbn\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2519,6 +2543,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?franecki\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?franeski\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4420,6 +4456,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?realsrv\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?recreativ\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4685,6 +4733,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?secureaddisplay\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?securemoney\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
