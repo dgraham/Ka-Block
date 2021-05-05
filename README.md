@@ -3,7 +3,7 @@
 A Safari browser extension that blocks an artisanal selection of advertising
 domains.
 
-![Ka-Block](/Ka-Block.safariextension/Icon.png)
+<img src="/Ka-Block.safariextension/Icon.png" width="150">
 
 ## State of the art
 
@@ -69,10 +69,24 @@ a pull request with the domain and a site or two on which its ads appear. We'll
 add it to the [blocked domains list](/Ka-Block.safariextension/blockerList.json)
 and release a new version of the extension to include it.
 
+## Whitelisting?
+
+Sometimes, you need to disable content blocker because it breaks the page you are browsing. Ka-Block!
+doesn't have an explicit option to do that. Instead, you have different options to whitelist specific sites
+in Safari (both, on iOS and on MacOS).
+
+For Mac, you can find the option in *Safari > Preferences > Websites > Content Blockers*.
+
+For iOS, you have two ways, both touching the "aA" icon in the address bar:
+
+1. **Turn off Content Blockers**: this will turn it off for only that web page and for that specific browser session only. If you refresh or navigate away, the blocker will be turn back on automatically. Suitable for a temporary navigation.
+2. **Website Settings**: this will allow you to turn it off for that specific site you are on at the moment, from now on. If you wish to enable content blockers for that site again, you have to click website settings again and enable it.
+
+<img src="https://user-images.githubusercontent.com/3683251/117017485-a0b7d580-acc1-11eb-9514-11e44ee21882.jpeg" width="300">
+
 ## License
 
-Ka-Block! is released under the terms of the MIT license. Check the LICENSE
-file for details.
+Ka-Block! is released under the terms of the MIT license. Check the LICENSE file for details.
 
 <3
 
