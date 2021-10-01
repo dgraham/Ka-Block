@@ -4,7 +4,7 @@ import SwiftUI
 struct KaBlockApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
-    @ObservedObject var contentBlockerState = ContentBlockerState(withIdentifier: "com.kablock.macos.Ka-Block-Content-Blocker")
+    @ObservedObject var contentBlockerState = ContentBlockerState(withIdentifier: "com.kablock.ios.KaBlockContentBlocker")
 
     var body: some Scene {
         WindowGroup {
@@ -23,10 +23,6 @@ struct NonResizableWindow: NSViewRepresentable {
             guard let window = view.window else { return }
             window.styleMask = [.closable, .titled, .fullSizeContentView]
             window.collectionBehavior = [.fullScreenNone]
-
-            // Debug: Use to copy these bitmasks to macOS Catalyst
-            // print("styleMask", "0x" + String(window.styleMask.rawValue, radix: 8))
-            // print("collectionBehavior", "0x" + String(window.collectionBehavior.rawValue, radix: 8))
 
             if let menu = window.menu {
                 let appMenuItem = menu.item(withTitle: "Ka-Block!")!

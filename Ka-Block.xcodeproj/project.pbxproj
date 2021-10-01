@@ -16,7 +16,6 @@
 		036A5C7126C4507300A76915 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036A5C7026C4507300A76915 /* Localizable.strings */; };
 		036A5C7226C4507300A76915 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036A5C7026C4507300A76915 /* Localizable.strings */; };
 		037870CA26EA98FD00075102 /* KaBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037870C826EA98DD00075102 /* KaBlockApp.swift */; };
-		037870CE26EA998500075102 /* KaBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037870CD26EA996A00075102 /* KaBlockApp.swift */; platformFilter = maccatalyst; };
 		0381081326CC50D9008A912C /* ContentBlockerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381081226CC50D9008A912C /* ContentBlockerState.swift */; };
 		0381081426CC50D9008A912C /* ContentBlockerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381081226CC50D9008A912C /* ContentBlockerState.swift */; };
 		0397975D26BC86460014BF79 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0397975C26BC86460014BF79 /* Logo.swift */; };
@@ -79,7 +78,6 @@
 		036A5C6D26C44E1500A76915 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		036A5C7026C4507300A76915 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		037870C826EA98DD00075102 /* KaBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaBlockApp.swift; sourceTree = "<group>"; };
-		037870CD26EA996A00075102 /* KaBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaBlockApp.swift; sourceTree = "<group>"; };
 		0381081226CC50D9008A912C /* ContentBlockerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerState.swift; sourceTree = "<group>"; };
 		0381081526CC5794008A912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0397975C26BC86460014BF79 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 				03346D3226B08EA1004A268E /* Shared (App) */,
 				03346D3B26B08EA2004A268E /* Shared (Extension) */,
 				037870CB26EA993100075102 /* iOS (App) */,
-				037870CC26EA995F00075102 /* macCatalyst (App) */,
 				037870C726EA98D400075102 /* macOS (App) */,
 				03AB91F126BB20CE00C6DFFD /* Frameworks */,
 				03346D4B26B08EA2004A268E /* Products */,
@@ -181,14 +178,6 @@
 				03AB922626BB254800C6DFFD /* KaBlockApp.swift */,
 			);
 			path = "iOS (App)";
-			sourceTree = "<group>";
-		};
-		037870CC26EA995F00075102 /* macCatalyst (App) */ = {
-			isa = PBXGroup;
-			children = (
-				037870CD26EA996A00075102 /* KaBlockApp.swift */,
-			);
-			path = "macCatalyst (App)";
 			sourceTree = "<group>";
 		};
 		03AB91F126BB20CE00C6DFFD /* Frameworks */ = {
@@ -363,7 +352,6 @@
 			files = (
 				0381081326CC50D9008A912C /* ContentBlockerState.swift in Sources */,
 				036A5C6E26C44E1500A76915 /* HomeScreen.swift in Sources */,
-				037870CE26EA998500075102 /* KaBlockApp.swift in Sources */,
 				0397975D26BC86460014BF79 /* Logo.swift in Sources */,
 				03AB922726BB254800C6DFFD /* KaBlockApp.swift in Sources */,
 			);
@@ -551,7 +539,7 @@
 				PRODUCT_NAME = "Ka-Block! Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
@@ -580,7 +568,7 @@
 				PRODUCT_NAME = "Ka-Block! Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
@@ -616,10 +604,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios;
 				PRODUCT_NAME = "Ka-Block!";
 				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -651,10 +639,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios;
 				PRODUCT_NAME = "Ka-Block!";
 				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -672,6 +660,7 @@
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -679,7 +668,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kablock.macos.Ka-Block-Content-Blocker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios.KaBlockContentBlocker;
 				PRODUCT_NAME = "Ka-Block! Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -701,6 +690,7 @@
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -708,7 +698,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kablock.macos.Ka-Block-Content-Blocker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios.KaBlockContentBlocker;
 				PRODUCT_NAME = "Ka-Block! Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -732,6 +722,7 @@
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -742,7 +733,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.macos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios;
 				PRODUCT_NAME = "Ka-Block!";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -765,6 +756,7 @@
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -775,7 +767,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.macos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios;
 				PRODUCT_NAME = "Ka-Block!";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
