@@ -1626,6 +1626,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?brandmetrics\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?brcdn\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4672,6 +4684,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?rezync\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?rfihub\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4709,6 +4733,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?rubiconproject\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?s-onetag\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -5536,6 +5572,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?tremorhub\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?tribalfusion\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5993,6 +6041,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?webspectator\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?wmcdp\\.io[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
