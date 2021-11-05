@@ -858,6 +858,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adtng\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?afy11\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3433,6 +3445,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?main-tcod\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?js\\.maxmind\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5392,6 +5416,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?trafficjunky\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?traffichaus\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -6416,6 +6452,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ipaddresslabs\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?invamia\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
