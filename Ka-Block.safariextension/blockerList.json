@@ -1242,6 +1242,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?betgorebysson\\.club[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?bkrtx\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -6320,6 +6332,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?idealmedia\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?inpage-push\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
