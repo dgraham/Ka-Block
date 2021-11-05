@@ -606,39 +606,39 @@
   },
   {
     "trigger": {
-        "url-filter": "^https?:\/\/([^/:]+\\.)?(.*\.)theadstars\.com[:\/]",
-        "url-filter-is-case-sensitive": true,
-        "load-type": [
-            "third-party"
-        ]
+      "url-filter": "^https?:/+([^/:]+\\.)?theadstars\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
     },
     "action": {
-        "type": "block"
+      "type": "block"
     }
   },
   {
-      "trigger": {
-          "url-filter": "^(.*\.)adexprtz\.com",
-          "url-filter-is-case-sensitive": true,
-          "load-type": [
-              "third-party"
-          ]
-      },
-      "action": {
-          "type": "block"
-      }
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adexprtz\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
   },
   {
-      "trigger": {
-          "url-filter": "^https?:/+([^/:]+\\.)?(alb\.reddit\.com)[:\/]",
-          "url-filter-is-case-sensitive": true,
-          "load-type": [
-              "third-party"
-          ]
-      },
-      "action": {
-          "type": "block"
-      }
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?alb\\.reddit\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
   },
   {
     "trigger": {
@@ -3996,17 +3996,17 @@
     }
   },
   {
-     "trigger": {
-       "url-filter": "^https?:/+([^/:]+\\.)?nitropay\\.com[:/]",
-       "url-filter-is-case-sensitive": true,
-       "load-type": [
-         "third-party"
-       ]
-     },
-     "action": {
-       "type": "block"
-     }
-   },
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?nitropay\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ntv\\.io[:/]",
