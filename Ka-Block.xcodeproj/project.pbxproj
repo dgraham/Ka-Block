@@ -25,6 +25,7 @@
 		03AB920226BB231200C6DFFD /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AB91F526BB20CE00C6DFFD /* blockerList.json */; };
 		03AB920326BB231500C6DFFD /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AB91F526BB20CE00C6DFFD /* blockerList.json */; };
 		03AB922726BB254800C6DFFD /* KaBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB922626BB254800C6DFFD /* KaBlockApp.swift */; platformFilter = ios; };
+		03E41C022737270700F87ACB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB91F226BB20CE00C6DFFD /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E41C022737270700F87ACB /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
