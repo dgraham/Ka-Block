@@ -606,6 +606,42 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?theadstars\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adexprtz\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?alb\\.reddit\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adsnative\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -811,6 +847,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?adprofits\\.ru[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adtng\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1062,6 +1110,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adpatrof\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?analytics\\.yahoo\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -1195,6 +1255,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?betweendigital\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?betgorebysson\\.club[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -1543,6 +1615,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?bounceexchange\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?brandmetrics\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -2206,6 +2290,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?d-ughwashes\\.ru[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?eclkmpbn\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -2519,6 +2615,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?franecki\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?franeski\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -3385,6 +3493,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?main-tcod\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?js\\.maxmind\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -3866,6 +3986,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?nexac\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?nitropay\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4420,6 +4552,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?realsrv\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?recreativ\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4540,6 +4684,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?rezync\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?rfihub\\.net[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -4577,6 +4733,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?rubiconproject\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?s-onetag\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -4685,6 +4853,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?secureaddisplay\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?securemoney\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -5332,6 +5512,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?trafficjunky\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?traffichaus\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5369,6 +5561,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?trafmag\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?tremorhub\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -5848,6 +6052,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?wmcdp\\.io[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?://widget\\.perfectmarket\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -5984,6 +6200,42 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?zqtk\\.net[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?m\\.addthisedge\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?o\\.addthis\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?su\\.addthis\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
@@ -6283,6 +6535,18 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?inpage-push\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ip2location\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
@@ -6344,6 +6608,18 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?ipaddresslabs\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": [
+        "third-party"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?invamia\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
