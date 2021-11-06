@@ -524,10 +524,11 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block! Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -553,10 +554,11 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block! Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -657,7 +659,7 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block! Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleVersion = 1;
@@ -688,7 +690,7 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block! Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleVersion = 1;
