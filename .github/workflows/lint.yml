@@ -1,0 +1,14 @@
+name: Lint
+
+on: [push, pull_request]
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+
+      - run: npx prettier --check ".github/" "Shared (Extension)/blockerList.json"
