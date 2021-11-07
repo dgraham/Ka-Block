@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         scheme:
-          - "Ka-Block (iOS)"
+          # - "Ka-Block (iOS)"
           - "Ka-Block (macOS)"
 
     runs-on: macos-11.0
