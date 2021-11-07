@@ -13,8 +13,8 @@
 		03346D8326B08EA2004A268E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		036A5C6E26C44E1500A76915 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A5C6D26C44E1500A76915 /* HomeScreen.swift */; };
 		036A5C6F26C44E1500A76915 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A5C6D26C44E1500A76915 /* HomeScreen.swift */; };
-		036A5C7126C4507300A76915 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036A5C7026C4507300A76915 /* Localizable.strings */; };
-		036A5C7226C4507300A76915 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036A5C7026C4507300A76915 /* Localizable.strings */; };
+		036C97812738520300170DF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036C9780273851FF00170DF1 /* Localizable.strings */; };
+		036C97832738522600170DF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036C977F273851FD00170DF1 /* Localizable.strings */; };
 		037870CA26EA98FD00075102 /* KaBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037870C826EA98DD00075102 /* KaBlockApp.swift */; };
 		0381081326CC50D9008A912C /* ContentBlockerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381081226CC50D9008A912C /* ContentBlockerState.swift */; };
 		0381081426CC50D9008A912C /* ContentBlockerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381081226CC50D9008A912C /* ContentBlockerState.swift */; };
@@ -77,7 +77,8 @@
 		03346D6826B08EA2004A268E /* Ka-Block! Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ka-Block! Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03346D7226B08EA2004A268E /* Ka-Block! Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ka-Block! Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		036A5C6D26C44E1500A76915 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		036A5C7026C4507300A76915 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		036C977F273851FD00170DF1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		036C9780273851FF00170DF1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		037870C826EA98DD00075102 /* KaBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaBlockApp.swift; sourceTree = "<group>"; };
 		0381081226CC50D9008A912C /* ContentBlockerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerState.swift; sourceTree = "<group>"; };
 		0381081526CC5794008A912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,7 +141,6 @@
 				0381081226CC50D9008A912C /* ContentBlockerState.swift */,
 				036A5C6D26C44E1500A76915 /* HomeScreen.swift */,
 				0397975C26BC86460014BF79 /* Logo.swift */,
-				036A5C7026C4507300A76915 /* Localizable.strings */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -170,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				037870C826EA98DD00075102 /* KaBlockApp.swift */,
+				036C9780273851FF00170DF1 /* Localizable.strings */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -178,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				03AB922626BB254800C6DFFD /* KaBlockApp.swift */,
+				036C977F273851FD00170DF1 /* Localizable.strings */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -316,7 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03346D8226B08EA2004A268E /* Assets.xcassets in Resources */,
-				036A5C7126C4507300A76915 /* Localizable.strings in Resources */,
+				036C97832738522600170DF1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03346D8326B08EA2004A268E /* Assets.xcassets in Resources */,
-				036A5C7226C4507300A76915 /* Localizable.strings in Resources */,
+				036C97812738520300170DF1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
