@@ -12,7 +12,7 @@ struct KaBlockApp: App {
                 .frame(width: 375, height: 640)
                 .background(NonResizableWindow())
         }
-        .windowStyle(.hiddenTitleBar)
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
 
