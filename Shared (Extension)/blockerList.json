@@ -11,6 +11,16 @@
   },
   {
     "trigger": {
+      "url-filter": "/ads/",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party", "first-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "/ajs\\.php\\?",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party", "first-party"]
