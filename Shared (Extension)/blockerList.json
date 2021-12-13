@@ -1912,6 +1912,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?dynspt\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?d-ughwashes\\.ru[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
@@ -2874,6 +2884,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?madisonlogic\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?major-inpp-code\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
@@ -4145,6 +4165,16 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?sharethrough\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?shukriya90\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
     },
