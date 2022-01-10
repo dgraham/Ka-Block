@@ -1,0 +1,22 @@
+name: Xcode
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        scheme:
+          # - "Ka-Block (iOS)"
+          - "Ka-Block (macOS)"
+
+    runs-on: macos-11.0
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Print Xcode version
+        run: xcodebuild -version -sdk
+
+      - name: Build
+        run: xcodebuild -project Ka-Block.xcodeproj -scheme "${{ matrix.scheme }}" build ENABLE_HARDENED_RUNTIME=NO CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY=

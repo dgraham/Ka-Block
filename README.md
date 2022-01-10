@@ -3,7 +3,7 @@
 A Safari browser extension that blocks an artisanal selection of advertising
 domains.
 
-<img src="/Ka-Block.safariextension/Icon.png" width="150">
+![Ka-Block!](/Shared%20(App)/Assets.xcassets/AppIcon.appiconset/256x256.png)
 
 ## State of the art
 
@@ -66,7 +66,7 @@ Ka-Block! can be installed from the [Mac App Store][macos] or the [App Store][io
 
 If there's a pesky ad-serving domain that's getting through the filter, open
 a pull request with the domain and a site or two on which its ads appear. We'll
-add it to the [blocked domains list](/Ka-Block.safariextension/blockerList.json)
+add it to the [blocked domains list](/Shared%20(Extension)/blockerList.json)
 and release a new version of the extension to include it.
 
 ## Whitelisting?
