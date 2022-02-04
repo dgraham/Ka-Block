@@ -3804,6 +3804,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?rcvlink\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?referrer\\.disqus\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
