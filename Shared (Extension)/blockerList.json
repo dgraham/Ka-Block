@@ -5215,26 +5215,6 @@
   },
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?coinhive\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?coin-hive\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
-      "load-type": ["third-party"]
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?contentstream\\.pl[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
