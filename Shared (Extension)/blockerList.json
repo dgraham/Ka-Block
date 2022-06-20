@@ -1281,6 +1281,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?bigclick\\.me[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?bizible\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
