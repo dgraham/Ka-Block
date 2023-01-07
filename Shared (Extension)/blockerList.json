@@ -2283,6 +2283,16 @@
   },
   {
     "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?adservice\\.google\\.com[:/]",
+      "url-filter-is-case-sensitive": true,
+      "load-type": ["third-party"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?googlesyndication\\.com[:/]",
       "url-filter-is-case-sensitive": true,
       "load-type": ["third-party"]
