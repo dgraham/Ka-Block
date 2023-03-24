@@ -62,6 +62,10 @@ does the rest, maintaining your privacy.
 
 Ka-Block! can be installed from the [Mac App Store][macos] or the [App Store][ios] for iOS.
 
+## Whitelist
+
+Content blocking can be configured per-site at Safari > Preferences > Websites > Content Blockers.
+
 ## Updating the domain list
 
 If there's a pesky ad-serving domain that's getting through the filter, open
