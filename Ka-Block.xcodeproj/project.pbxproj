@@ -10,14 +10,12 @@
 		03346D6926B08EA2004A268E /* Ka-Block! Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 03346D6826B08EA2004A268E /* Ka-Block! Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		03346D8226B08EA2004A268E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		036A5C6E26C44E1500A76915 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A5C6D26C44E1500A76915 /* HomeScreen.swift */; };
-		036B14902BF2F4C10053AD95 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036C9780273851FF00170DF1 /* Localizable.strings */; platformFilters = (macos, ); };
-		036B14912BF2F4C30053AD95 /* KaBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037870C826EA98DD00075102 /* KaBlockApp.swift */; platformFilters = (macos, ); };
-		036C97832738522600170DF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036C977F273851FD00170DF1 /* Localizable.strings */; platformFilter = ios; };
+		036C97832738522600170DF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036C977F273851FD00170DF1 /* Localizable.strings */; };
 		0381081326CC50D9008A912C /* ContentBlockerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381081226CC50D9008A912C /* ContentBlockerState.swift */; };
 		0397975D26BC86460014BF79 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0397975C26BC86460014BF79 /* Logo.swift */; };
 		03AB920126BB211E00C6DFFD /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */; };
 		03AB920326BB231500C6DFFD /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AB91F526BB20CE00C6DFFD /* blockerList.json */; };
-		03AB922726BB254800C6DFFD /* KaBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB922626BB254800C6DFFD /* KaBlockApp.swift */; platformFilter = ios; };
+		03AB922726BB254800C6DFFD /* KaBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB922626BB254800C6DFFD /* KaBlockApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +48,6 @@
 		03346D6826B08EA2004A268E /* Ka-Block! Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ka-Block! Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		036A5C6D26C44E1500A76915 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		036C977F273851FD00170DF1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		036C9780273851FF00170DF1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		037870C826EA98DD00075102 /* KaBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaBlockApp.swift; sourceTree = "<group>"; };
 		0381081226CC50D9008A912C /* ContentBlockerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerState.swift; sourceTree = "<group>"; };
 		0381081526CC5794008A912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0397975C26BC86460014BF79 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
@@ -81,33 +77,33 @@
 		03346D2D26B08EA1004A268E = {
 			isa = PBXGroup;
 			children = (
-				03346D3226B08EA1004A268E /* Shared (App) */,
-				03346D3B26B08EA2004A268E /* Shared (Extension) */,
-				037870CB26EA993100075102 /* iOS (App) */,
-				037870C726EA98D400075102 /* macOS (App) */,
+				03346D3226B08EA1004A268E /* App */,
+				03346D3B26B08EA2004A268E /* Extension */,
 				03346D4B26B08EA2004A268E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03346D3226B08EA1004A268E /* Shared (App) */ = {
+		03346D3226B08EA1004A268E /* App */ = {
 			isa = PBXGroup;
 			children = (
 				03346D3A26B08EA2004A268E /* Assets.xcassets */,
+				03AB922626BB254800C6DFFD /* KaBlockApp.swift */,
 				0381081226CC50D9008A912C /* ContentBlockerState.swift */,
 				036A5C6D26C44E1500A76915 /* HomeScreen.swift */,
 				0397975C26BC86460014BF79 /* Logo.swift */,
+				036C977F273851FD00170DF1 /* Localizable.strings */,
 			);
-			path = "Shared (App)";
+			path = App;
 			sourceTree = "<group>";
 		};
-		03346D3B26B08EA2004A268E /* Shared (Extension) */ = {
+		03346D3B26B08EA2004A268E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */,
 				03AB91F526BB20CE00C6DFFD /* blockerList.json */,
 				0381081526CC5794008A912C /* Info.plist */,
 			);
-			path = "Shared (Extension)";
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		03346D4B26B08EA2004A268E /* Products */ = {
@@ -117,24 +113,6 @@
 				03346D6826B08EA2004A268E /* Ka-Block! Extension.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		037870C726EA98D400075102 /* macOS (App) */ = {
-			isa = PBXGroup;
-			children = (
-				037870C826EA98DD00075102 /* KaBlockApp.swift */,
-				036C9780273851FF00170DF1 /* Localizable.strings */,
-			);
-			path = "macOS (App)";
-			sourceTree = "<group>";
-		};
-		037870CB26EA993100075102 /* iOS (App) */ = {
-			isa = PBXGroup;
-			children = (
-				03AB922626BB254800C6DFFD /* KaBlockApp.swift */,
-				036C977F273851FD00170DF1 /* Localizable.strings */,
-			);
-			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03346D8226B08EA2004A268E /* Assets.xcassets in Resources */,
-				036B14902BF2F4C10053AD95 /* Localizable.strings in Resources */,
 				036C97832738522600170DF1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +218,6 @@
 			files = (
 				0381081326CC50D9008A912C /* ContentBlockerState.swift in Sources */,
 				036A5C6E26C44E1500A76915 /* HomeScreen.swift in Sources */,
-				036B14912BF2F4C30053AD95 /* KaBlockApp.swift in Sources */,
 				0397975D26BC86460014BF79 /* Logo.swift in Sources */,
 				03AB922726BB254800C6DFFD /* KaBlockApp.swift in Sources */,
 			);
@@ -397,7 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
+				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block! Extension";
@@ -428,7 +404,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Shared (Extension)/Info.plist";
+				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ka-Block!";
 				INFOPLIST_KEY_CFBundleExecutable = "Ka-Block! Extension";
 				INFOPLIST_KEY_CFBundleName = "Ka-Block! Extension";
