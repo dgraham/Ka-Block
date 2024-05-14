@@ -10,6 +10,7 @@ struct Logo: View {
 
                 Circle()
                     .stroke(stateColor, lineWidth: 0.1)
+                    .position()
 
                 Circle()
                     .foregroundColor(Color.white)
