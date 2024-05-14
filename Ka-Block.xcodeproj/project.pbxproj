@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03346D6926B08EA2004A268E /* Ka-Block! Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03346D6826B08EA2004A268E /* Ka-Block! Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		03346D7326B08EA2004A268E /* Ka-Block! Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03346D7226B08EA2004A268E /* Ka-Block! Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03346D6926B08EA2004A268E /* Ka-Block! Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 03346D6826B08EA2004A268E /* Ka-Block! Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03346D7326B08EA2004A268E /* Ka-Block! Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 03346D7226B08EA2004A268E /* Ka-Block! Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		03346D8226B08EA2004A268E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		03346D8326B08EA2004A268E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		036A5C6E26C44E1500A76915 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A5C6D26C44E1500A76915 /* HomeScreen.swift */; };
@@ -46,26 +46,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		03346D9B26B08EA2004A268E /* Embed App Extensions */ = {
+		03346D9B26B08EA2004A268E /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				03346D6926B08EA2004A268E /* Ka-Block! Extension.appex in Embed App Extensions */,
+				03346D6926B08EA2004A268E /* Ka-Block! Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03346DA226B08EA2004A268E /* Embed App Extensions */ = {
+		03346DA226B08EA2004A268E /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				03346D7326B08EA2004A268E /* Ka-Block! Extension.appex in Embed App Extensions */,
+				03346D7326B08EA2004A268E /* Ka-Block! Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -202,7 +202,7 @@
 				03346D4626B08EA2004A268E /* Sources */,
 				03346D4726B08EA2004A268E /* Frameworks */,
 				03346D4826B08EA2004A268E /* Resources */,
-				03346D9B26B08EA2004A268E /* Embed App Extensions */,
+				03346D9B26B08EA2004A268E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -221,7 +221,7 @@
 				03346D5826B08EA2004A268E /* Sources */,
 				03346D5926B08EA2004A268E /* Frameworks */,
 				03346D5A26B08EA2004A268E /* Resources */,
-				03346DA226B08EA2004A268E /* Embed App Extensions */,
+				03346DA226B08EA2004A268E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -275,7 +275,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					03346D4926B08EA2004A268E = {
 						CreatedOnToolsVersion = 13.0;
@@ -439,9 +439,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 8;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -501,9 +503,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 8;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -658,6 +662,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -689,6 +694,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -723,6 +729,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -758,6 +765,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
