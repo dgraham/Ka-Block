@@ -25,7 +25,6 @@
 		03AB920226BB231200C6DFFD /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AB91F526BB20CE00C6DFFD /* blockerList.json */; };
 		03AB920326BB231500C6DFFD /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AB91F526BB20CE00C6DFFD /* blockerList.json */; };
 		03AB922726BB254800C6DFFD /* KaBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB922626BB254800C6DFFD /* KaBlockApp.swift */; platformFilter = ios; };
-		03E41C022737270700F87ACB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB91F226BB20CE00C6DFFD /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +82,6 @@
 		0381081226CC50D9008A912C /* ContentBlockerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerState.swift; sourceTree = "<group>"; };
 		0381081526CC5794008A912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0397975C26BC86460014BF79 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
-		03AB91F226BB20CE00C6DFFD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		03AB91F526BB20CE00C6DFFD /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		03AB922626BB254800C6DFFD /* KaBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaBlockApp.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E41C022737270700F87ACB /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +126,6 @@
 				03346D3B26B08EA2004A268E /* Shared (Extension) */,
 				037870CB26EA993100075102 /* iOS (App) */,
 				037870C726EA98D400075102 /* macOS (App) */,
-				03AB91F126BB20CE00C6DFFD /* Frameworks */,
 				03346D4B26B08EA2004A268E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -182,14 +178,6 @@
 				036C977F273851FD00170DF1 /* Localizable.strings */,
 			);
 			path = "iOS (App)";
-			sourceTree = "<group>";
-		};
-		03AB91F126BB20CE00C6DFFD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				03AB91F226BB20CE00C6DFFD /* Cocoa.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
