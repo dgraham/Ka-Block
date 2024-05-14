@@ -11,4 +11,4 @@ jobs:
 
       - uses: actions/setup-node@v2
 
-      - run: npx prettier --check ".github/" "Shared (Extension)/blockerList.json"
+      - run: npx prettier --check ".github/" "Extension/blockerList.json"
